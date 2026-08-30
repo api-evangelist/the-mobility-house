@@ -1,0 +1,53 @@
+generated: '2026-08-30'
+method: searched
+source: 'https://status.tmh.energy/ (probed 2026-08-30, HTTP 200, page titled "The Mobility House -
+  ChargePilot EU"), https://www.mobilityhouse.com/int_en/chargepilot/product-updates,
+  https://vdv-docs.tmh.energy/. No deprecation, sunset or SLA policy document was found on any
+  Mobility House host.'
+name: The Mobility House API lifecycle
+status_page:
+  present: true
+  url: https://status.tmh.energy/
+  scope: 'ChargePilot EU'
+  http_status: 200
+  machine_readable_feed: 'none found — no /api/v2/status.json, /history.rss or equivalent was
+    advertised on the page.'
+versioning:
+  scheme: 'External standard version, not a provider version. VDV 463 is versioned by the VDV; OCPP
+    support is stated as 1.6 / 2.0.1 / 2.1. No Mobility House API version string, URL segment or
+    version header is published.'
+  current_version: null
+  see: conventions/the-mobility-house-conventions.yml
+deprecation:
+  policy_published: false
+  sunset_header: false
+  deprecation_header: false
+  rfc8594: false
+  note: 'No deprecation policy, no Sunset/Deprecation header documentation, and no announced retirement
+    of any interface was found. No Deprecation pointer is emitted for this repo.'
+sla:
+  published: false
+  note: 'No public SLA or uptime commitment document. Service commitments appear to be contractual —
+    the company sells 24/7 service as part of its Full Service offering but publishes no terms.'
+support:
+  channels:
+  - type: help-center
+    url: https://tmh-help.freshdesk.com/en/support/home
+  - type: contact-form
+    url: https://www.mobilityhouse.com/int_en/contact
+  - type: email
+    value: info@mobilityhouse.com
+    source: 'https://www.mobilityhouse.com/llms.txt'
+changelog:
+  present: true
+  url: https://www.mobilityhouse.com/int_en/chargepilot/product-updates
+  see: changelog/the-mobility-house-changelog.yml
+deprecated_operations: []
+findings:
+- id: dead-release-notes-link
+  severity: low
+  description: 'The ChargePilot product-updates page links its historical Release Notes to
+    https://chargepilot.scrollhelp.site/documentspacechargepiloten/ChargePilot-Product-Updates-2023.3890675742.html,
+    which no longer resolves — the whole chargepilot.scrollhelp.site Scroll Sites instance redirects to
+    the K15t marketing page with scrollHelpSiteNotFound=true. Probed 2026-08-30. The pre-2024 ChangeLog
+    is therefore unreachable.'

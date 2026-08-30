@@ -1,0 +1,42 @@
+generated: '2026-08-30'
+method: searched
+source: 'https://www.mobilityhouse.com/int_en/chargepilot/product-updates and
+  https://www.mobilityhouse.com/usa_en/chargepilot/product-updates/chargepilot-feature-updates-2025-first-quarter,
+  fetched 2026-08-30.'
+name: ChargePilot product updates
+url: https://www.mobilityhouse.com/int_en/chargepilot/product-updates
+scheme: 'Quarterly narrative product-update articles under /chargepilot/product-updates/. No semantic
+  version numbers, no per-release tags, no machine-readable feed, and no separation of breaking changes
+  from additions.'
+current_version: null
+dated: true
+machine_readable: false
+entries:
+- id: chargepilot-feature-updates-2025-first-quarter
+  period: 2025 Q1
+  date: '2025-02-14'
+  url: https://www.mobilityhouse.com/usa_en/chargepilot/product-updates/chargepilot-feature-updates-2025-first-quarter
+  breaking: false
+  api_affecting: false
+  highlights:
+  - 'Charging Events: date picker with quick links for common reporting periods, improved search,
+    relocated export button, per-user persisted column selection, and detailed session summaries
+    showing charging power intervals and State-of-Charge progression.'
+  - 'Load & Energy Statistics: calculation switched to rely on data from ChargePilot''s optimizer
+    rather than charger-internal data; configurable 15-minute, hourly, daily, weekly, monthly and
+    yearly resolutions; fleet-wide total energy and peak load; multi-distribution statistics; CSV
+    export at 15-minute granularity.'
+  - 'Charging Station Settings: site-scoped navigation, table columns for station ID, firmware version
+    and fallback configuration, persisted column preferences, and single-click firmware updates
+    deployable across multiple sites.'
+  note: 'Dashboard and reporting changes only. No change to the VDV 463 interface, the Charging Data
+    Push-API payload or the Modbus register map was announced in this entry.'
+gaps:
+  breaking_change_marking: 'Not used.'
+  api_change_scope: 'Product updates cover the ChargePilot dashboard. No changelog is published for
+    the VDV 463 interface, the Push-API payload or the Modbus register map — an integrator has no
+    published signal when those change.'
+  archive: 'Pre-2024 release notes were hosted at chargepilot.scrollhelp.site, which no longer
+    resolves (probed 2026-08-30, redirects to the K15t site-not-found page).'
+counts:
+  entries: 1

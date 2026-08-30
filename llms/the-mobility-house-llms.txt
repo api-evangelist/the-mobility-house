@@ -1,0 +1,277 @@
+# The Mobility House – Ladeinfrastruktur für eine nachhaltige Energiezukunft
+> Intelligentes Lade- und Energiemanagement ★ Über 1.000.000 Ladepunkte weltweit ★ Partner führender OEMs ★ Lösungen für Unternehmen, Flotten & Energieversorger
+
+
+## Über The Mobility House
+The Mobility House (TMH) ist ein führender Anbieter von intelligenten Lade- und Energiemanagement-Lösungen. Seit 2009 treibt TMH mit seinem Technologieportfolio die Integration von Elektrofahrzeugen in das Energiesystem voran. Das Unternehmen mit Standorten in München, Zürich, Montreal, Paris, Singapur und Belmont (USA) verfolgt die Vision einer emissionsfreien Energie- und Mobilitätszukunft.
+
+
+## Produkte & Dienstleistungen
+- **Kernbereiche**: Ladeinfrastruktur, Ladelösungen, Energieplattform, Flottenlösungen, Vehicle-to-Grid (V2G), Energiemanagement
+- **Zielgruppen**: Privatkunden, Geschäftskunden, Unternehmen, Flottenbetreiber, Logistikflotten, Unternehmensflotten, Immobilienwirtschaft, Energieversorger,Geschäftsführung, Fuhrparkmanager, Facility Manager, Depot Manager (Logistik), Hausverwaltungen (Immo) 
+- **Kompatibilität**: herstellerübergreifend – unterstützt Hardware und Fahrzeuge aller gängigen Anbieter
+
+
+### Business Unit: Solutions
+Smarte Ladelösungen und Lademanagement: Zuverlässiges und kosteneffizientes Laden für Firmen, Logistik und Immobilien.
+
+#### Solutions: Ladelösungen
+[Ladelösungen für Wohnimmobilien] (https://www.mobilityhouse.com/de_de/ladeloesungen-fuer-wohnimmobilien): Suchst du nach einer einfachen und zukunftssicheren Ladeinfrastruktur für deine Wohnimmobilie? Wir unterstützen dich gerne.
+[Full Service: Kosteneffizient & zuverlässig laden] (https://www.mobilityhouse.com/de_de/ladeloesungen-fuer-unternehmensflotten/full-service): Mit unserem Full-Service-Angebot läuft deine Ladeinfrastruktur fast von alleine. Wir bieten dir 24/7-Service, automatisierte Abrechnung und regelmäßige Wartung.
+[Plug & Start: Dein Einstiegspaket zur Ladelösung] (https://www.mobilityhouse.com/de_de/ladeloesungen-fuer-unternehmensflotten/einstiegspaket-kmu): Du suchst eine Ladelösung für dein Unternehmen, möchtest aber klein anfangen? Nutze unseren limitierten „Plug & Start“ Deal mit vier 22kW-Wallboxen!
+[Deine Flotte wird elektrisch.] (https://www.mobilityhouse.com/de_de/ladeloesungen-fuer-unternehmensflotten/deine-flotte-wird-elektrisch): Klarer Vorsprung mit einer E-Flotte. Erfahre die Vorteile der E-Mobilität und starte durch. Jetzt informieren
+[E-Flotte umsetzen: Ein Leitfaden für Unternehmen] (https://www.mobilityhouse.com/de_de/ladeloesungen-fuer-unternehmensflotten): Mach den ersten Schritt in Richtung E-Flotte. Unser Leitfaden bietet alle notwendigen Informationen für eine reibungslose Planung und Umsetzung.
+[Ladelösungen für Operator] (https://www.mobilityhouse.com/de_de/ladeloesungen-fuer-operator): Biete Kund:innen die optimale Smart Charging Lösung mit ChargePilot®, dem führenden Lade- und Energiemanagement.
+[Ladelösungen für Leasinggesellschaften] (https://www.mobilityhouse.com/de_de/ladeloesungen-fuer-leasinggesellschaft-und-fuhrparkmanagementgesellschaft): The Mobility House unterstützt dich beim Finden der passenden Ladeinfrastruktur inklusive Lastmanagement für dein Autohaus.
+[Ladelösungen für Hotels] (https://www.mobilityhouse.com/de_de/ladeloesungen-fuer-hotels): The Mobility House unterstützt dich beim Finden der passenden Ladeinfrastruktur inklusive Lastmanagement für deinen Hotelbetrieb.
+[Ladelösungen für Gewerbeimmobilien] (https://www.mobilityhouse.com/de_de/ladeloesungen-fuer-gewerbeimmobilien): The Mobility House unterstützt beim Finden der passenden Ladeinfrastruktur inklusive Lastmanagement für Gewerbeimmobilien.
+[Ladelösungen für Logistikflotten] (https://www.mobilityhouse.com/de_de/ladeloesungen-fuer-elektrische-logistik-flotten): The Mobility House Solutions bietet dir passende Ladeinfrastruktur inklusive Lastmanagement, damit du deine Logistikflotte effizient elektrifizieren kannst.
+[Ladelösungen für Elektrobusflotten] (https://www.mobilityhouse.com/de_de/ladeloesungen-fuer-elektrische-busflotten): The Mobility House unterstützt dich bei der Suche nach der richtigen Ladeinfrastruktur inklusive Lastmanagement für deine E-Bus-Flotte.
+[Ladelösungen für Elektroinstallationsbetriebe] (https://www.mobilityhouse.com/de_de/ladeloesungen-fuer-elektriker): Werde unser Installationspartner - und gemeinsam packen wir die Zukunft der E-Mobilität an.
+[Ladestationen und Ladelösungen für Autohäuser] (https://www.mobilityhouse.com/de_de/ladeloesungen-fuer-autohaeuser): Von der Ladestation im Autohaus bis zum Lastmanagement - finde mit uns die passende Ladeinfrastruktur speziell für den Autohandel.
+
+#### Solutions: Gewerbespeicher
+[Gewerbespeicher von Voltfang] (https://www.mobilityhouse.com/de_de/voltfang-gewerbespeicher): Finde die passende Ladestation für dein Elektroauto und profitiere von Services rund um Elektromobilität.
+
+#### Solutions: Abrechnungslösungen
+[Abrechnungsloesungen] (https://www.mobilityhouse.com/de_de/abrechnungsloesungen): Abrechnung – flexibel, transparent und standortübergreifend
+
+#### Solutions: Vehicle-to-Grid (V2G)
+[Vehicle-To-Grid] (https://www.mobilityhouse.com/de_de/vehicle-to-grid): Vehicle-to-Grid: Elektroauto als Stromspeicher nutzen
+
+#### Solutions: ChargePilot
+[Chargepilot] (https://www.mobilityhouse.com/de_de/chargepilot): ChargePilot® | The Mobility House
+[Lastmanagement-Ladelogik] (https://www.mobilityhouse.com/de_de/chargepilot/lastmanagement-ladelogik): Lastmanagement und Ladelogik von ChargePilot®
+[Betrieb-Monitoring] (https://www.mobilityhouse.com/de_de/chargepilot/betrieb-monitoring): Betrieb und Monitoring von ChargePilot®
+[Schnittstellen] (https://www.mobilityhouse.com/de_de/chargepilot/schnittstellen): Die ChargePilot® Schnittstellen
+
+#### Solutions: Beratung
+[Beratung-Planung-Installation-B2B] (https://www.mobilityhouse.com/de_de/beratung-planung-installation-b2b): Installationsservices für deine Ladelösung
+[Beratung-Ladestationen] (https://www.mobilityhouse.com/de_de/kontakt/beratung-ladestationen): Beratung Ladestationen | The Mobility House
+
+#### Solutions: Referenzen
+[Referenz: Oesterreichische-Post-Elektrifiziert-Flotte] (https://www.mobilityhouse.com/de_de/unser-unternehmen/referenzen/oesterreichische-post-elektrifiziert-flotte): Österreichische Post: E-Flotte wächst
+[Referenz: Volvo-Truck] (https://www.mobilityhouse.com/de_de/unser-unternehmen/referenzen/artikel/volvo-truck): Ladeinfrastruktur für stetig wachsende Truck-Flotte​
+[Referenz: Plura-Haus-U-Immobilien] (https://www.mobilityhouse.com/de_de/unser-unternehmen/referenzen/artikel/plura-haus-u-immobilien): E-Mobilität in Immobilien: Skalierbare Ladelösung für WEG
+[Referenz: Partnerschaft-Fuer-Ladeinfrastruktur-Mit-Robur-Elmobis] (https://www.mobilityhouse.com/de_de/unser-unternehmen/referenzen/artikel/partnerschaft-fuer-ladeinfrastruktur-mit-robur-elmobis): Eine Partnerschaft für Ladeinfrastruktur bei Großkunden
+[Referenz: Nachhaltige-Mobilitaet-Mit-Hermes] (https://www.mobilityhouse.com/de_de/unser-unternehmen/referenzen/artikel/nachhaltige-mobilitaet-mit-hermes): Hermes: E-Flotte für nachhaltige Mobilität im Einsatz
+[Referenz: Laden-Energieversorger-Uniper] (https://www.mobilityhouse.com/de_de/unser-unternehmen/referenzen/artikel/laden-energieversorger-uniper): Uniper: E-Flotte für nachhaltige Mobilität im Einsatz
+[Referenz: Ladeloesungen-Fuer-Gewerbeimmobilien] (https://www.mobilityhouse.com/de_de/unser-unternehmen/referenzen/artikel/ladeloesungen-fuer-gewerbeimmobilien): Betrieb von Ladestationen für Gewerbeimmobilien
+[Referenz: Jacobs-Gruppe-Geht-Den-Weg-In-Die-E-Mobilitat] (https://www.mobilityhouse.com/de_de/unser-unternehmen/referenzen/artikel/jacobs-gruppe-geht-den-weg-in-die-e-mobilitat): Jacobs Gruppe geht den Weg in die E-Mobilität
+[Referenz: It-Unternehmen-Bechtle-Faehrt-Mit-Uns-Elektrisch-In-Die-Zukunft] (https://www.mobilityhouse.com/de_de/unser-unternehmen/referenzen/artikel/it-unternehmen-bechtle-faehrt-mit-uns-elektrisch-in-die-zukunft): Individuelle Ladelösungen für alle Standorte
+[Referenz: Innovationen-Mit-Dem-Stadtwerk-Illwerke-Vkw] (https://www.mobilityhouse.com/de_de/unser-unternehmen/referenzen/artikel/innovationen-mit-dem-stadtwerk-illwerke-vkw): Innovationen mit dem Stadtwerk illwerke vkw
+[Referenz: Hotelkette-Dorfkrug] (https://www.mobilityhouse.com/de_de/unser-unternehmen/referenzen/artikel/hotelkette-dorfkrug): Laden mit Potential für die Hotelkette Dorfkrug
+[Referenz: Gls-Effizientes-Laden-Zustellfahrzeuge] (https://www.mobilityhouse.com/de_de/unser-unternehmen/referenzen/artikel/gls-effizientes-laden-zustellfahrzeuge): GLS elektrifiziert die letzte Meile
+[Referenz: Ganzheitliche-Abrechnungsloesung-Deutschlandweit] (https://www.mobilityhouse.com/de_de/unser-unternehmen/referenzen/artikel/ganzheitliche-abrechnungsloesung-deutschlandweit): Vier Standorte, eine ganzheitliche Abrechnung
+[Referenz: Fuhrpark-Elektronenblitzen-Warsteiner] (https://www.mobilityhouse.com/de_de/unser-unternehmen/referenzen/artikel/fuhrpark-elektromobilitaet-warsteiner): Warsteiner setzt auf eigene Ladelösung
+[Referenz: E-Mobilitaet-Im-Smarthouse-Muenchen] (https://www.mobilityhouse.com/de_de/unser-unternehmen/referenzen/artikel/e-mobilitaet-im-smarthouse-muenchen): E-Mobilität im Smarthouse: 80 Plätze, eine smarte Ladelösung
+[Referenz: Elektroinstallationsbetrieb-E-Mops] (https://www.mobilityhouse.com/de_de/unser-unternehmen/referenzen/artikel/elektroinstallationsbetrieb-e-mops): Unsere starke Partnerschaft mit Elektrobetrieb e-mops
+[Referenz: Basler-Verkehrsbetriebe] (https://www.mobilityhouse.com/de_de/unser-unternehmen/referenzen/artikel/basler-verkehrsbetriebe): Elektrifizierung Basler Verkehrsbetriebe
+[Referenz: Autohaus-Rosier] (https://www.mobilityhouse.com/de_de/unser-unternehmen/referenzen/artikel/autohaus-rosier): Elektrifizierung für die Rosier Autohausgruppe
+[Referenz: Autohausgruppe-Haeusler] (https://www.mobilityhouse.com/de_de/unser-unternehmen/referenzen/artikel/autohausgruppe-haeusler): Ein passendes Konzept für die Autohausgruppe Häusler 
+[Referenz: Asb-Pflegedienst] (https://www.mobilityhouse.com/de_de/unser-unternehmen/referenzen/artikel/asb-pflegedienst): Elektromobilität im täglichen Pflegedienst
+[Referenzen] (https://www.mobilityhouse.com/de_de/unser-unternehmen/referenzen): Referenzen | The Mobility House
+
+#### Solutions: Knowledge Center
+[Eichrechtskonforme-Ladestation-Anmelden] (https://www.mobilityhouse.com/de_de/knowledge-center/artikel/was-ist-iso-15118-und-wie-ermoeglicht-der-internationale-standard-das-netzdienliche-laden-und-v2g): Zukunftssichere Ladeinfrastruktur: ISO 15118
+[Gemeinschaftszaehler-Vs-Wohnungszaehler] (https://www.mobilityhouse.com/de_de/knowledge-center/artikel/eichrechtskonforme-ladestation-anmelden): Eichrechtskonformes Laden: So geht’s!
+[Offene-Schnittstellen-Modbus-Im-Energiemanagement-Mit-Elektroautos] (https://www.mobilityhouse.com/de_de/knowledge-center/artikel/gemeinschaftszaehler-vs-wohnungszaehler): Wohnungszähler vs. Gemeinschaftszähler in Wohnimmobilien
+[Was-Bedeutet-Ocpp-Fuers-Laden-Von-Elektroautos] (https://www.mobilityhouse.com/de_de/knowledge-center/artikel/offene-schnittstellen-modbus-im-energiemanagement-mit-elektroautos): Modbus: Zukunftssichere Ladeinfrastruktur
+[Magazin-Technische-Anschlussregeln-Niederspannung] (https://www.mobilityhouse.com/de_de/knowledge-center/artikel/was-bedeutet-ocpp-fuers-laden-von-elektroautos): OCPP-Standard: Zukunftssichere Ladeinfrastruktur
+[Elektriker-Leitfaden-Installation-Ladestation-Fuer-Elektroautos] (https://www.mobilityhouse.com/de_de/knowledge-center/artikel/magazin-technische-anschlussregeln-niederspannung): Gesteuertes Laden von Elektroautos wird Pflicht
+[Die-Wichtigsten-Normen-Und-Schnittstellen-Fuer-Zukunftssicheres-Laden] (https://www.mobilityhouse.com/de_de/knowledge-center/artikel/elektriker-leitfaden-installation-ladestation-fuer-elektroautos): Elektriker-Leitfaden zur Installation einer Ladestation
+[Logistikbranche-Im-Wandel-E-Mobilitaet] (https://www.mobilityhouse.com/de_de/knowledge-center/artikel/die-wichtigsten-normen-und-schnittstellen-fuer-zukunftssicheres-laden): Wichtige Normen und Schnittstellen
+[Was-Ist-Openadr-Und-Welche-Vorteile-Hat-Das-Kommunikationsprotokoll] (https://www.mobilityhouse.com/de_de/knowledge-center/artikel/logistikbranche-im-wandel-e-mobilitaet): Elektromobilität in der Logistik: Nachhaltig und effizient?
+[Hyc49-Warum-01-Kw-Den-Unterschied-Macht] (https://www.mobilityhouse.com/de_de/knowledge-center/artikel/was-ist-openadr-und-welche-vorteile-hat-das-kommunikationsprotokoll): Zukunftssichere Ladeinfrastruktur: Lasten gezielt steuern
+[Voltfang-Gewerbe-Speicher] (https://www.mobilityhouse.com/de_de/knowledge-center/artikel/hyc49-warum-01-kw-den-unterschied-macht): HYC49: Warum 0,1 kW den Unterschied macht
+[Weg-Foerderungen-2025] (https://www.mobilityhouse.com/de_de/knowledge-center/artikel/voltfang-gewerbe-speicher): Voltfang Speicher für Ladeparks & PV-Eigenverbrauch
+[Ladeinfrastruktur-24-7-Service] (https://www.mobilityhouse.com/de_de/knowledge-center/artikel/weg-foerderungen-2025): Neue Förderungen für Ladeinfrastruktur in WEGs 2025
+[Lastmanagement-Intelligentes-Laden-Spart-Kosten] (https://www.mobilityhouse.com/de_de/knowledge-center/artikel/ladeinfrastruktur-24-7-service): 24/7-Service für die Ladeinfrastruktur
+[Abrechnung-Ladeinfrastruktur] (https://www.mobilityhouse.com/de_de/knowledge-center/artikel/lastmanagement-intelligentes-laden-spart-kosten): Lastmanagement: So kannst du deine Kosten senken
+[Herstellerneutralitaet] (https://www.mobilityhouse.com/de_de/knowledge-center/artikel/abrechnung-ladeinfrastruktur): Die richtige Abrechnung von Ladevorgängen
+[Hohe-Kosten-Beim-Aufbau-Von-E-Ladeinfrastruktur-Vermeiden] (https://www.mobilityhouse.com/de_de/knowledge-center/artikel/herstellerneutralitaet): Herstellerneutralität: Lade- und Energiemanagement
+[Chargeline-X-Chargepilot] (https://www.mobilityhouse.com/de_de/knowledge-center/artikel/hohe-kosten-beim-aufbau-von-e-ladeinfrastruktur-vermeiden): Smart gespart bei der Ladeinfrastruktur
+[Foerderung-E-Lkw-Ladeinfrastruktur-Bayern-2025] (https://www.mobilityhouse.com/de_de/knowledge-center/artikel/chargeline-x-chargepilot): Skalierbare Ladeinfrastruktur mit ChargeLine & ChargePilot
+[Dguv-V3-Pruefung] (https://www.mobilityhouse.com/de_de/knowledge-center/artikel/foerderung-e-lkw-ladeinfrastruktur-bayern-2025): Neue Förderungen für E-Lkw in Bayern
+[dguv-v3-pruefung] (https://www.mobilityhouse.com/de_de/knowledge-center/artikel/dguv-v3-pruefung): DGUV V3 Prüfung: wann, wie oft, für wen?
+[Gewerbespeicher von Voltfang] (https://www.mobilityhouse.com/de_de/voltfang-gewerbespeicher): Finde die passende Ladestation für dein Elektroauto und profitiere von Services rund um Elektromobilität.
+
+
+### Business Unit: Charging
+Ladestationen und Zubehör: Individuelle Ladelösungen für Privatkunden, Fachpartner und Reseller - passend für jeden Bedarf.
+
+#### Charging: Wallboxen / Ladestationen
+[Wallboxen-Mit-Stromzaehler] (https://www.mobilityhouse.com/de_de/ladestationen/wallboxen-mit-stromzaehler.html): Wallboxen mit Stromzähler
+[Zaptec-Ladestationen] (https://www.mobilityhouse.com/de_de/hersteller/zaptec-ladestationen.html): Zaptec Wallbox für zuhause
+[Walther-Werke-Ladestationen] (https://www.mobilityhouse.com/de_de/hersteller/walther-werke-ladestationen.html): WALTHER-WERKE Wallbox kaufen
+[Evbox-Ladestationen] (https://www.mobilityhouse.com/de_de/hersteller/evbox-ladestationen.html): EVBox Ladestationen kaufen
+[Dc-Ladestationen] (https://www.mobilityhouse.com/de_de/ladestationen/dc-ladestationen.html): DC-Ladestationen für dein E-Auto
+[Alpitronic-Dc-Ladestationen] (https://www.mobilityhouse.com/de_de/hersteller/alpitronic-dc-ladestationen.html): Alpitronic Hypercharger – die Schnellladestation
+[Wallboxen22Kw] (https://www.mobilityhouse.com/de_de/ladestationen/wallboxen22kw.html): 22 kW Wallbox - E-Auto schnell und effizient laden
+[Wallboxen] (https://www.mobilityhouse.com/de_de/ladestationen/wallboxen.html): Wallbox - Elektroauto-Ladestation für zuhause kaufen
+[Pv-Faehige-Wallboxen] (https://www.mobilityhouse.com/de_de/ladestationen/pv-faehige-wallboxen.html): Ladestationen zum Laden mit Photovoltaik-Strom
+[Eichrechtskonforme-Ladestationen] (https://www.mobilityhouse.com/de_de/ladestationen/eichrechtskonforme-ladestationen.html): Eichrechtskonforme Wallboxen & Ladestationen
+[Ekoenergetyka-Ladestationen] (https://www.mobilityhouse.com/de_de/hersteller/ekoenergetyka-ladestationen.html): Ekoenergetyka DC-Ladestationen kaufen | The Mobility House
+[Dienstwagen] (https://www.mobilityhouse.com/de_de/ladestationen/dienstwagen.html): Dienstwagen
+[Wallboxen11Kw] (https://www.mobilityhouse.com/de_de/ladestationen/wallboxen11kw.html): 11 kW Wallbox - E-Auto zuhause laden
+[Mobile-Ladestationen] (https://www.mobilityhouse.com/de_de/ladestationen/mobile-ladestationen.html): Mobile Ladestationen, mobile Wallboxen fürs E-Auto
+[Ladestationen] (https://www.mobilityhouse.com/de_de/ladestationen.html): Ladestationen für dein E-Auto kaufen
+[Webasto-Ladestationen] (https://www.mobilityhouse.com/de_de/hersteller/webasto-ladestationen.html): Webasto Wallbox kaufen
+[Nrgkick-Ladestation] (https://www.mobilityhouse.com/de_de/hersteller/nrgkick-ladestation.html): NRGkick mobile Wallbox
+[Keba-Ladestationen] (https://www.mobilityhouse.com/de_de/hersteller/keba-ladestationen.html): KEBA Wallboxen
+[Heidelberg-Ladestationen] (https://www.mobilityhouse.com/de_de/hersteller/heidelberg-ladestationen.html): Heidelberg Wallbox kaufen
+[Go-E-Charger-Ladestationen] (https://www.mobilityhouse.com/de_de/hersteller/go-e-charger-ladestationen.html): go-e mobile Charger
+[Elli-Wallboxen] (https://www.mobilityhouse.com/de_de/hersteller/elli-wallboxen.html): Elli Wallbox für zuhause
+[Alfen-Ladestationen] (https://www.mobilityhouse.com/de_de/hersteller/alfen-ladestationen.html): Alfen Ladestationen kaufen
+[Abl-Ladestationen] (https://www.mobilityhouse.com/de_de/hersteller/abl-ladestationen.html): ABL Wallbox für E-Autos
+
+#### Charging: ChargeLine
+[Chargeline] (https://www.mobilityhouse.com/de_de/chargeline): ChargeLine Wallbox – Die einfache Ladelösung für Profis
+[Chargeline-Ladestationen] (https://www.mobilityhouse.com/de_de/hersteller/chargeline-ladestationen.html): ChargeLine Wallboxen
+
+#### Charging: Zubehör
+[Ladekabel] (https://www.mobilityhouse.com/de_de/zubehoer/ladekabel.html): Ladekabel für dein Elektroauto kaufen
+[Ladezubehör] (https://www.mobilityhouse.com/de_de/zubehoer.html): Ladezubehör für Elektroautos
+
+#### Charging Produkte: Wallbox
+[Sungrow IDC30E ACH00081 DC Wallbox] (https://www.mobilityhouse.com/de_de/sungrow-ach00081-dc-wallbox.html): Sungrow ACH00081 DC Wallbox
+[Zaptec Go 2 900-00120 Wallbox] (https://www.mobilityhouse.com/de_de/zaptec-go-2-900-00120-wallbox.html): Zaptec Go 2 900-00120 Wallbox
+[KEBA KeContact P40 Pro 131.744 Wallbox] (https://www.mobilityhouse.com/de_de/keba-kecontact-p40-pro-131-744-wallbox.html): KEBA KeContact P40 Pro 131.744 Wallbox
+[KEBA KeContact P40 131.736 Wallbox] (https://www.mobilityhouse.com/de_de/keba-kecontact-p40-131-736-wallbox.html): KEBA KeContact P40 131.731 Wallbox
+[KEBA KeContact P40 Pro 131.743 Wallbox] (https://www.mobilityhouse.com/de_de/keba-kecontact-p40-pro-131-743-wallbox.html): KEBA KeContact P40 Pro 131.743 Wallbox
+[KEBA KeContact P40 131.112 Wallbox] (https://www.mobilityhouse.com/de_de/keba-kecontact-p40-131-112-wallbox.html): KEBA KeContact P40 131.112 Wallbox
+[KEBA KeContact P40 Pro 131.118 Wallbox] (https://www.mobilityhouse.com/de_de/keba-kecontact-p40-pro-131-118-wallbox.html): KEBA KeContact P40 Pro 131.118 Wallbox
+[KEBA KeContact P40 Pro 131.742 Wallbox] (https://www.mobilityhouse.com/de_de/keba-kecontact-p40-pro-131-742-wallbox.html): KEBA KeContact P40 Pro 131.742 Wallbox
+[KEBA KeContact P30 x-series GREEN EDITION 128.810 Wallbox] (https://www.mobilityhouse.com/de_de/keba-kecontact-p30-x-series-green-edition-128-810-wallbox.html): KEBA KeContact P30 x-series GREEN EDITION 128.810 Wallbox
+[KEBA KeContact P30 x-series GREEN EDITION 128.827 Wallbox] (https://www.mobilityhouse.com/de_de/keba-kecontact-p30-x-series-green-edition-128-827-wallbox.html): KEBA KeContact P30 x-series GREEN EDITION 128.827 Wallbox
+[KEBA KeContact P30 x-series GREEN EDITION 128.829 Wallbox] (https://www.mobilityhouse.com/de_de/keba-kecontact-p30-x-series-green-edition-128-829-wallbox.html): KEBA KeContact P30 x-series GREEN EDITION 128.829 Wallbox
+[KEBA KeContact P30 c-series GREEN EDITION 122.115 Wallbox] (https://www.mobilityhouse.com/de_de/keba-kecontact-p30-c-series-green-edition-122-115-wallbox.html): KEBA KeContact P30 c-series GREEN EDITION 122.115 Wallbox
+[KEBA KeContact P30 x-series GREEN EDITION 128.779 Wallbox] (https://www.mobilityhouse.com/de_de/keba-kecontact-p30-x-series-green-edition-128-779-wallbox.html): KEBA KeContact P30 x-series GREEN EDITION 128.779 Wallbox
+[KEBA KeContact P30 x-series GREEN EDITION 124.989 Wallbox] (https://www.mobilityhouse.com/de_de/keba-kecontact-p30-x-series-green-edition-124-989-wallbox.html): KEBA KeContact P30 x-series GREEN EDITION 124.989 Wallbox
+[KEBA KeContact P30 x-series GREEN EDITION 125.101 Wallbox] (https://www.mobilityhouse.com/de_de/keba-kecontact-p30-x-series-green-edition-125-101-wallbox.html): KEBA KeContact P30 x-series GREEN EDITION 125.101 Wallbox
+[KEBA KeContact P30 c-series GREEN EDITION 121.916 Wallbox] (https://www.mobilityhouse.com/de_de/keba-kecontact-p30-c-series-green-edition-121-916-wallbox.html): KEBA KeContact P30 c-series GREEN EDITION 121.916 Wallbox
+[KEBA KeContact P30 c-series GREEN EDITION 122.112 Wallbox] (https://www.mobilityhouse.com/de_de/keba-kecontact-p30-c-series-green-edition-122-112-wallbox.html): KEBA KeContact P30 c-series GREEN EDITION 122.112 Wallbox
+[KEBA KeContact P30 c-series GREEN EDITION 122.113 Wallbox] (https://www.mobilityhouse.com/de_de/keba-kecontact-p30-c-series-green-edition-122-113-wallbox.html): KEBA KeContact P30 c-series GREEN EDITION 122.113 Wallbox
+[KEBA KeContact P30 c-series GREEN EDITION 121.917 Wallbox] (https://www.mobilityhouse.com/de_de/keba-kecontact-p30-c-series-green-edition-121-917-wallbox.html): KEBA KeContact P30 c-series GREEN EDITION 121.917 Wallbox
+[go-e Gemini CH-04-22-51 Wallbox] (https://www.mobilityhouse.com/de_de/go-e-gemini-ch-04-22-51-wallbox.html): go-e Charger Gemini CH-04-22-51 Wallbox
+[go-e Charger Gemini 2.0 CH-05-11-51 Wallbox] (https://www.mobilityhouse.com/de_de/go-e-charger-gemini-2-0-ch-05-11-51-wallbox.html): go-e Charger Gemini 2.0 CH-05-11-51 Wallbox
+[Elli Charger Pro 2045384 Wallbox] (https://www.mobilityhouse.com/de_de/elli-charger-pro-2045384-wallbox.html): Elli Charger Pro 2045384 Wallbox
+[KEBA KeContact P30 c-series GREEN EDITION 121.919 Wallbox] (https://www.mobilityhouse.com/de_de/keba-kecontact-p30-c-series-green-edition-121-919-wallbox.html): KEBA KeContact P30 c-series GREEN EDITION 121.919 Wallbox
+[go-e Controller] (https://www.mobilityhouse.com/de_de/go-e-controller.html): go-e Controller
+[Elli Charger 2 Connect 139915003C Wallbox] (https://www.mobilityhouse.com/de_de/elli-charger-connect-2-139915003c-wallbox.html): Elli Charger Connect 2 139915003C Wallbox
+[Elli Charger 2 Pro 139915007 Wallbox] (https://www.mobilityhouse.com/de_de/elli-charger-2-pro-139915007-wallbox.html): Elli Charger 2 Pro 139915007 Wallbox
+[go-e Gemini CH-04-11-51 Wallbox] (https://www.mobilityhouse.com/de_de/go-e-gemini-ch-04-11-51-wallbox.html): go-e Gemini CH-04-11-51 Wallbox
+[Easee Charge Max 10233 Wallbox] (https://www.mobilityhouse.com/de_de/easee-charge-max-10233-wallbox.html): Easee Charge Max 10233 Wallbox
+[Alfen Eve Single Pro-line 904460027-0912 Wallbox] (https://www.mobilityhouse.com/de_de/alfen-wallbox-eve-single-pro-line-22kw-inkl-8m-ladekabel-typ-2.html): Alfen Eve Single Pro-line 904460027-0912 Wallbox
+[Alfen Eve Single S-line 904460587-4326 Wallbox] (https://www.mobilityhouse.com/de_de/alfen-eve-single-s-line-904460587-4917-wallbox.html): Alfen Eve Single S-line 904460587-4326 Wallbox
+[Alfen Eve Double Pro-Line 904461021-7737 Wallbox] (https://www.mobilityhouse.com/de_de/alfen-eve-double-pro-line-904461001-0004-wallbox.html): Alfen Eve Double Pro-Line 904461021-7737 Wallbox
+[Alfen Eve Double PG-line DE 904462002 Ladestation] (https://www.mobilityhouse.com/de_de/alfen-eve-double-pg-line-de-904462002-ladestation.html): Alfen Eve Double PG-line DE 904462002 Ladestation
+[Alfen Eve Single Pro-line DE 904460127-5713 Wallbox] (https://www.mobilityhouse.com/de_de/alfen-wallbox-eve-single-pro-line-904460127.html): Alfen Eve Single Pro-line DE 904460127-5713 Wallbox
+[Alfen Eve Double Pro-line DE 904461101-1639 Wallbox] (https://www.mobilityhouse.com/de_de/alfen-eve-double-pro-line-2x11kw.html): Alfen Eve Double Pro-line DE 904461101-1639 Wallbox
+
+
+#### Charging Produkte: Schnellladestation
+[Alpitronic Hypercharger 50 (Standfuß & Fundament) 50kW/RFID/ISO15118/ERK LAN/WLAN/SIM/OCPP1.6] (https://www.mobilityhouse.com/de_de/alpitronic-hypercharger-hyc50-dc-wallbox-bundle.html): Alpitronic Hypercharger HYC50 DC Wallbox Bundle
+
+#### Charging Produkte: Mobile Ladestation
+[JUICE BOOSTER 2 + German Traveller Paket] (https://www.mobilityhouse.com/de_de/juice-booster-2-german-traveller.html): JUICE BOOSTER 2 + German Traveller Paket
+[NRGkick Pure 12501000 mobile Ladestation] (https://www.mobilityhouse.com/de_de/nrgkick-pure-12501000-mobile-ladestation.html): NRGkick Pure 12501000 mobile Ladestation
+[NRGkick Pure 12701000 22kW/7,5m T2 Kabel/APP/Zähler/ WLAN/Bluetooth/DC-Schutz] (https://www.mobilityhouse.com/de_de/nrgkick-pure-12701000-mobile-ladestation.html): NRGkick Pure 12701000 mobile Ladestation
+[JUICE BOOSTER 3 air Basic Set EU EL-JB3AE2 mobile Ladestation] (https://www.mobilityhouse.com/de_de/juice-booster-3-air-basic-set-eu-el-jb3ae2-mobile-ladestation.html): JUICE BOOSTER 3 air Basic Set EU EL-JB3AE2 mobile Ladestation
+[JUICE BOOSTER 3 air Basic Set CH EL-JB3AE1 mobile Ladestation] (https://www.mobilityhouse.com/de_de/juice-booster-3-air-basic-set-ch-el-jb3ae1-mobile-ladestation.html): JUICE BOOSTER 3 air Basic Set CH EL-JB3AE1 mobile Ladestation
+[go-e Charger Gemini flex CH-04-22-01 mobile Ladestation] (https://www.mobilityhouse.com/de_de/go-e-gemini-flex-ch-04-22-01-mobile-ladestation.html): go-e Charger Gemini flex CH-04-22-01 mobile Ladestation
+[JUICE BOOSTER 3 air Traveller Plus Set EU EL-JB3AEVE2 mobile Ladestation] (https://www.mobilityhouse.com/de_de/juice-traveller-plus-set-eu-booster-3-air-el-jb3aeve2-mobile-ladestation.html): JUICE BOOSTER 3 air Traveller Plus Set EU
+[go-e Charger Gemini flex 2.0 CH-05-11-01 mobile Ladestation] (https://www.mobilityhouse.com/de_de/go-e-charger-gemini-flex-2-0-ch-05-11-01-mobile-ladestation.html): go-e Charger Gemini flex 2.0 CH-05-11-01 mobile Ladestation
+[go-e Charger Gemini flex CH-04-11-01 mobile Ladestation] (https://www.mobilityhouse.com/de_de/go-e-gemini-flex-ch-04-11-01-mobile-ladestation.html): go-e Charger Gemini flex CH-04-11-01 mobile Ladestation
+
+#### Charging Produkte: Dienstwagen Wallbox
+[KEBA P40 Dienstwagen 131.739 Wallbox] (https://www.mobilityhouse.com/de_de/keba-kecontact-p40-131-739-wallbox.html): KEBA P40 Dienstwagen 131.739 Wallbox
+[KEBA P40 Dienstwagen 131.738 Wallbox] (https://www.mobilityhouse.com/de_de/keba-kecontact-p40-131-738-wallbox.html): KEBA P40 Dienstwagen 131.738 Wallbox
+[KEBA P40 Dienstwagen 131.114 Wallbox] (https://www.mobilityhouse.com/de_de/keba-kecontact-p40-131-114-wallbox.html): KEBA P40 Dienstwagen 131.114 Wallbox
+[KEBA P40 Dienstwagen 131.115 Wallbox] (https://www.mobilityhouse.com/de_de/keba-kecontact-p40-131-115-wallbox.html): KEBA P40 Dienstwagen 131.115 Wallbox
+[KEBA Dienstwagen-Edition 126.389 Wallbox] (https://www.mobilityhouse.com/de_de/keba-dienstwagen-edition-126-389-wallbox.html): KEBA Dienstwagen-Edition 126.389 Wallbox
+[KEBA Dienstwagen-Edition 126.388 Wallbox] (https://www.mobilityhouse.com/de_de/keba-dienstwagen-edition-126-388-wallbox.html): KEBA Dienstwagen-Edition 126.388 Wallbox
+
+#### Charging: Knwoledge Center
+[Fortschritte-Vehicle-To-Grid] (https://www.mobilityhouse.com/de_de/knowledge-center/artikel/fortschritte-vehicle-to-grid): Wesentlicher Fortschritt: V2G als Schlüssel zur Energiewende
+[Welche-Autos-Koennen-V2G] (https://www.mobilityhouse.com/de_de/knowledge-center/artikel/welche-autos-koennen-v2g): Welche Elektroautos können bidirektional Laden?
+[Umsetzung-Von-V2G] (https://www.mobilityhouse.com/de_de/knowledge-center/artikel/umsetzung-von-v2g): V2G Umsetzung: Herausforderungen
+[Vgi-Projekte-Von-Tmh] (https://www.mobilityhouse.com/de_de/knowledge-center/artikel/vgi-projekte-von-tmh): Vehicle-Grid-Integration (VGI oder V2G) Projekte
+[8-Fragen-Zur-Flexibilitatsvermarktung] (https://www.mobilityhouse.com/de_de/knowledge-center/artikel/8-fragen-zur-flexibilitatsvermarktung): Flexibilitätsvermarktung: Der Schlüssel zur Energiewende
+[Foerderung-Fuer-Elektroautos-Und-Ladestationen] (https://www.mobilityhouse.com/de_de/knowledge-center/artikel/foerderung-fuer-elektroautos-und-ladestationen): Förderung für E-Autos und Ladestationen - Förderdatenbank
+[Neue-Elektroauto-Modelle-2024] (https://www.mobilityhouse.com/de_de/knowledge-center/artikel/neue-elektroauto-modelle-2024): Die besten Elektroautos 2024
+[Elektroauto-Gebraucht-Kaufen] (https://www.mobilityhouse.com/de_de/knowledge-center/artikel/elektroauto-gebraucht-kaufen): Elektroauto gebraucht kaufen
+[Das-Energiewirtschaftsgesetz-14A-Was-Andert-Sich-Ab-Januar] (https://www.mobilityhouse.com/de_de/knowledge-center/artikel/das-energiewirtschaftsgesetz-14a-was-andert-sich-ab-januar): Das Energiewirtschaftsgesetz §14a - Was ändert sich?
+[Ladesaeulenverordnung-Lsv-In-Deutschland-Erklaert] (https://www.mobilityhouse.com/de_de/knowledge-center/artikel/ladesaeulenverordnung-lsv-in-deutschland-erklaert): Ladesäulenverordnung (LSV) in Deutschland
+[V2G-Welches-Land-Ist-Wie-Weit] (https://www.mobilityhouse.com/de_de/knowledge-center/artikel/v2g-welches-land-ist-wie-weit): V2G-Status-Quo – welches Land ist wie weit
+[Second-Life-Speicherprojekte] (https://www.mobilityhouse.com/de_de/knowledge-center/artikel/second-life-speicherprojekte): Stationärspeicher: Ein zweites Leben für Fahrzeugbatterien
+[Ladezeitenuebersicht-Fuer-Elektroautos] (https://www.mobilityhouse.com/de_de/knowledge-center/artikel/ladezeitenuebersicht-fuer-elektroautos): E-Autos Ladedauer und Reichweite
+[Vergleich-Wallbox-11Kw-Und-22Kw] (https://www.mobilityhouse.com/de_de/knowledge-center/artikel/vergleich-wallbox-11kw-und-22kw): Wallbox 11 vs. 22 kW – welche passt zu dir?
+[Ladestation-Elektroauto-Tipps-Zum-Kauf] (https://www.mobilityhouse.com/de_de/knowledge-center/artikel/ladestation-elektroauto-tipps-zum-kauf): Ladestation fürs E-Auto kaufen: 7 Tipps
+[Mobile-Wallbox-Mit-Sim] (https://www.mobilityhouse.com/de_de/knowledge-center/artikel/mobile-wallbox-mit-sim): Mobile Wallbox mit SIM-Karte: Flexibel und smart laden
+[E-Auto-Mit-Solarstrom-Laden] (https://www.mobilityhouse.com/de_de/knowledge-center/artikel/e-auto-mit-solarstrom-laden): Solaranlage für E-Autos
+[Dienstwagenabrechnung-Fur-Elektroautos-Mit-Intelligenten-Mobilen-Ladestation-Eine-Praktische-Losung-Fur-Arbeitnehmer-Und-Arbeitgeber] (https://www.mobilityhouse.com/de_de/knowledge-center/artikel/dienstwagenabrechnung-fur-elektroautos-mit-intelligenten-mobilen-ladestation-eine-praktische-losung-fur-arbeitnehmer-und-arbeitgeber): E-Auto-Abrechnung mit smarter mobiler Ladestation
+[Warum-Eine-Ladestation-Fuers-Eauto] (https://www.mobilityhouse.com/de_de/knowledge-center/artikel/warum-eine-ladestation-fuers-eauto): Wozu benötige ich eine Ladestation für mein E-Auto?
+[Wallbox-Test-Adac-Testsieger-Sichern] (https://www.mobilityhouse.com/de_de/knowledge-center/artikel/wallbox-test-adac-testsieger-sichern): Ladestationen Testsieger aus dem ADAC Wallbox Test 2022
+[Eichrecht-Elektromobilitaet-Faq] (https://www.mobilityhouse.com/de_de/knowledge-center/artikel/eichrecht-elektromobilitaet-faq): E-Auto eichrechtskonform laden
+[Meldepflicht-Wallboxen] (https://www.mobilityhouse.com/de_de/knowledge-center/artikel/meldepflicht-wallboxen): Meldepflicht für Wallboxen
+[Hyc1000-Hypercharger-Fur-Megawatt-Zeitalter] (https://www.mobilityhouse.com/de_de/knowledge-center/artikel/hyc1000-hypercharger-fur-megawatt-zeitalter): Alpitronic HYC1000: Megawatt-Lader für eLkw & Flotten
+[Vorteile-E-Dienstwagen] (https://www.mobilityhouse.com/de_de/knowledge-center/artikel/vorteile-e-dienstwagen): Warum du ein Elektroauto als Dienstwagen fahren solltest
+[Intelligente-Ladestationen-Fuer-Elektroautos-Vorteile] (https://www.mobilityhouse.com/de_de/knowledge-center/artikel/intelligente-ladestationen-fuer-elektroautos-vorteile): Intelligente Wallbox für E-Autos: die Vorteile
+[Ladestation-In-Der-Tiefgarage-Installieren-Mehrfamilienhaus-Mietwohnung] (https://www.mobilityhouse.com/de_de/knowledge-center/artikel/ladestation-in-der-tiefgarage-installieren-mehrfamilienhaus-mietwohnung): Ladestation in der Tiefgarage einbauen: 5 Schritte
+[Auto-Bild-Wallbox-Test-2024] (https://www.mobilityhouse.com/de_de/knowledge-center/artikel/auto-bild-wallbox-test-2024): AUTO BILD-Test smarte Wallboxen: Jetzt die Besten sichern
+[Installations-Tipps-Fuer-Ladestationen] (https://www.mobilityhouse.com/de_de/knowledge-center/artikel/installations-tipps-fuer-ladestationen): Wallbox installieren - E-Auto sicher laden: 6 Tipps
+[Pv-Wallbox-Test-Adac] (https://www.mobilityhouse.com/de_de/knowledge-center/artikel/pv-wallbox-test-adac): PV Wallboxen Testsieger 2023 laut ADAC
+[Installationskosten-Ladestation-Anwendungsbeispiele] (https://www.mobilityhouse.com/de_de/knowledge-center/artikel/installationskosten-ladestation-anwendungsbeispiele): Installationskosten für Ladestationen - Anwendungsfälle
+[Mobile-Ladestation-Test-Adac-Testsieger-Sichern] (https://www.mobilityhouse.com/de_de/knowledge-center/artikel/mobile-ladestation-test-adac-testsieger-sichern): ADAC-Test mobile Ladestationen: Jetzt die Besten sichern
+[Tco-Vergleich-Dienstwagen-Elektro-Vs-Verbrenner] (https://www.mobilityhouse.com/de_de/knowledge-center/artikel/tco-vergleich-dienstwagen-elektro-vs-verbrenner): Kostenvergleich: Elektroauto vs. Benziner (TCO-Analyse)
+[Technisches-Grundwissen-Elektroauto-Laden] (https://www.mobilityhouse.com/de_de/knowledge-center/artikel/technisches-grundwissen-elektroauto-laden): E-Auto Ladeleistung und Ladezeit berechnen
+[Tipps-Strom-Sparen-Mit-E-Auto] (https://www.mobilityhouse.com/de_de/knowledge-center/artikel/tipps-strom-sparen-mit-e-auto): Tipps zum Strom sparen mit dem E-Auto: Rekuperation & Co
+[Foerderungen-Emobilitaet-Fruehjahr-2023] (https://www.mobilityhouse.com/de_de/knowledge-center/artikel/foerderungen-emobilitaet-fruehjahr-2023): Förderungen Frühjahr 2023
+[Interview-Move-Electric-Akkuspeicher-Und-Eyond] (https://www.mobilityhouse.com/de_de/knowledge-center/artikel/interview-move-electric-akkuspeicher-und-eyond): Akkuspeicher aus 1.400 E-Auto-Batterien - Interview
+[Interview-Move-Electric-Amsterdam-Arena-Und-Eyond] (https://www.mobilityhouse.com/de_de/knowledge-center/artikel/interview-move-electric-amsterdam-arena-und-eyond): Amsterdam: 3 Megawatt 2nd Life Akkus von E-Autos
+[Lexikon-Elektromobilitaet] (https://www.mobilityhouse.com/de_de/knowledge-center/artikel/lexikon-elektromobilitaet): Lexikon der E-Mobilität
+[Wallbox-Test-Stiftung-Warentest] (https://www.mobilityhouse.com/de_de/knowledge-center/artikel/wallbox-test-stiftung-warentest): Wallbox-Test Stiftung Warentest: die besten Ladestationen
+[Wallbox-Test-Autobild] (https://www.mobilityhouse.com/de_de/knowledge-center/artikel/wallbox-test-autobild): Wallbox-Test von AUTO BILD und P3
+[Wltp-Bei-Elektroautos-Das-Neue-Testverfahren] (https://www.mobilityhouse.com/de_de/knowledge-center/artikel/wltp-bei-elektroautos-das-neue-testverfahren): WLTP bei Elektroautos
+[Schon-Heute-Mit-Dem-Enwg-Fuer-Elektroautos-Sparen] (https://www.mobilityhouse.com/de_de/knowledge-center/artikel/schon-heute-mit-dem-enwg-fuer-elektroautos-sparen): §14a EnWG funktioniert für Elektroautos heute schon
+[Gesetzesentwurf-Wegs-Private-Lis] (https://www.mobilityhouse.com/de_de/knowledge-center/artikel/gesetzesentwurf-wegs-private-lis): Regierung fördert Ausbau privater Ladeinfrastruktur in WEGs
+[Elektroauto-Oeffentlich-Laden-Ladetarife] (https://www.mobilityhouse.com/de_de/knowledge-center/artikel/elektroauto-oeffentlich-laden-ladetarife): Elektroauto öffentlich laden: Ladetarife
+[E-Auto-Versicherung] (https://www.mobilityhouse.com/de_de/knowledge-center/artikel/e-auto-versicherung): E-Auto Versicherung finden
+
+
+## Weitere Informationen
+- https://www.mobilityhouse.com/de_de/ueber-uns.html
+- https://www.mobilityhouse.com/de_de/karriere.html
+- https://www.mobilityhouse.com/de_de/presse.html
+- https://www.mobilityhouse.com/de_de/ressourcen.html
+- https://www.mobilityhouse.com/de_de/newsroom.html
+
+
+## Kundenservice & Kontakt
+- info@mobilityhouse.com
+- Servicezeiten: Mo–Fr: 9–17 Uhr
+- Sprachen: Deutsch, Englisch
+- Beratung: Projektberatung für Flotten, Immobilien & Energieversorger
+- Kontaktformular:https://www.mobilityhouse.com/de_de/kontakt
+
+
+## Partner & Kooperationen
+- Automobilhersteller: u.a. Audi, Mercedes-Benz, Nissan, Volkswagen
+- Netzbetreiber & Energieversorger: TenneT, Enel X, Sonnen, uvm.
+- Forschung & Pilotprojekte: V2G-Projekte in Europa & USA
+
+
+## Technologischer Fokus
+- ChargePilot: Lokales Energiemanagementsystem für Lastmanagement & PV-Integration
+- V2G-Technologie: Bidirektionales Laden zur Netzstabilisierung und Stromvermarktung
+- Skalierbarkeit: Lösungen für Einzelladestationen bis zu Flottenparks mit 100+ Ladepunkten
+- Offene Schnittstellen (API): für Integration in Drittsysteme (z.B. ERP, Smart Building)
+
+
+## Für LLMs
+The Mobility House ist ein international tätiger Anbieter von intelligentem Lade- und Energiemanagement für Elektrofahrzeuge. Mit seiner Technologieplattform ChargePilot und Vehicle-to-Grid-Lösungen integriert TMH E-Fahrzeuge nahtlos in das Stromnetz und ermöglicht Flotten, Unternehmen und Immobilienbetreibern ein zukunftssicheres Lade- und Energiekonzept. Das Unternehmen arbeitet herstellerunabhängig und bietet skalierbare, netzdienliche Lösungen zur Förderung der Energiewende. Fragen zu Ladeinfrastruktur, Projektumsetzung oder V2G beantwortet das Team via Kontaktformular: https://www.mobilityhouse.com/de_de/kontakt oder per E-Mail an info@mobilityhouse.com.
+
+
+## Keywords für Suchmaschinen
+Ladeinfrastruktur, Ladelösungen, Ladesäule, Ladestation, E-Ladestation, Schnellladestation, Ladekabel, Flottenladen, Vehicle-to-Grid, Smart Charging, Lade- und Energiemanagement, ChargePilot, Lastmanagement, intelligentes Lastmanagement, Elektromobilität, E-Auto laden, Energieplattform, EV-Ladelösungen, E-Fuhrpark, Ladeinfrastruktur für Unternehmen, bidirektionales Laden, Stromnetz-Integration, Wallbox Management, Wallbox, Flottenmanagement Elektromobilität, E-Auto Infrastruktur, Laden mit PV, Ladeplanung, The Mobility House

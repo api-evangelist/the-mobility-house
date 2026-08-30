@@ -1,0 +1,138 @@
+generated: '2026-08-30'
+method: derived
+source: 'Derived from the published ProvideChargingInformation and ProvideChargingRequests payload
+  examples and field tables at https://vdv-docs.tmh.energy/provide-charging-information/provide-charging-information/
+  and https://vdv-docs.tmh.energy/provide-charging-requests/provide-charging-requests/, plus the
+  Charging Data Push-API field table at
+  https://tmh-help.freshdesk.com/en/support/solutions/articles/203000046009-chargepilot-charging-data-push-api.
+  Fetched 2026-08-30. No OpenAPI exists to derive $ref links from; the graph is read from the
+  provider''s own worked example payloads.'
+name: ChargePilot VDV 463 entity model
+entities:
+- name: Depot
+  id_field: depotId
+  id_format: uuid
+  fields:
+  - depotId
+  - name
+  - chargingStationInfoList
+  description: 'A customer site. The root of every ProvideChargingInformation message.'
+- name: ChargingStation
+  id_field: chargingStationId
+  id_format: '<depotId>/<index> for the default station; UUID for real stations'
+  fields:
+  - chargingStationId
+  - chargingStationStatus
+  - chargingPointInfoList
+  description: 'A physical charging station. Each depot also carries a synthetic "Default Charging
+    Station" whose status is always Unavailable; it is a placeholder used to hold Charging Requests
+    that are not yet bound to a real charging point.'
+- name: ChargingPoint
+  id_field: chargingPointId
+  id_format: '<depotId>/<station>/<point> for the default point; UUID for real points'
+  fields:
+  - chargingPointId
+  - chargingPointStatus
+  - chargingPointFaultInfo
+  - presentPower
+  - scheduledChargingProcessList
+  description: 'A connector. Status enumeration and fault codes are documented in
+    errors/the-mobility-house-problem-types.yml.'
+- name: ChargingPointFaultInfo
+  fields:
+  - chargingPointFaultCode
+  - faultText
+  - faultTimeStamp
+  description: 'Embedded fault record on a charging point.'
+- name: ChargingProcess
+  id_field: chargingProcessId
+  id_format: uuid
+  fields:
+  - chargingProcessId
+  - presystemId
+  - chargingRequestId
+  - vehicleId
+  - startTime
+  - chargingPredictionData
+  description: 'A scheduled or running charging process at a charging point.'
+- name: ChargingRequest
+  id_field: chargingRequestId
+  fields:
+  - chargingRequestId
+  - presystemId
+  - vehicleId
+  - chargingInstruction
+  description: 'A charging schedule for one vehicle, supplied by the upstream system. chargingInstruction
+    is one of Normal, Changed, Terminate.'
+- name: ChargingPredictionData
+  fields:
+  - chargingPredictionDataMinSoc.requestedMinSoc
+  description: 'Target state-of-charge constraint attached to a charging process.'
+- name: Vehicle
+  id_field: vehicleId
+  id_format: 'VIN in the provider''s worked example (4T3ZF19C52LL20766)'
+  description: 'Referenced by id only; ChargePilot holds no vehicle record of its own over this
+    interface.'
+- name: ChargingSession
+  id_field: TransactionID
+  fields:
+  - TransactionID
+  - ChargerID
+  - ConnectorID
+  - StartAt
+  - EndAt
+  - Id
+  - EnergyDelivered
+  - InitialSoC
+  - EndSoC
+  description: 'Completed, billing-relevant session as delivered by the Charging Data Push-API. This is
+    a separate surface from VDV 463 and uses its own identifier vocabulary (ChargerID is the OCPP
+    station ID, not chargingStationId).'
+relationships:
+- from: Depot
+  to: ChargingStation
+  type: has_many
+  via: chargingStationInfoList
+- from: ChargingStation
+  to: ChargingPoint
+  type: has_many
+  via: chargingPointInfoList
+- from: ChargingPoint
+  to: ChargingPointFaultInfo
+  type: has_one
+  via: chargingPointFaultInfo
+- from: ChargingPoint
+  to: ChargingProcess
+  type: has_many
+  via: scheduledChargingProcessList
+- from: ChargingProcess
+  to: ChargingRequest
+  type: belongs_to
+  via: chargingRequestId
+- from: ChargingProcess
+  to: Vehicle
+  type: belongs_to
+  via: vehicleId
+- from: ChargingProcess
+  to: ChargingPredictionData
+  type: has_one
+  via: chargingPredictionData
+- from: ChargingRequest
+  to: ChargingPoint
+  type: belongs_to
+  via: 'chargingPointId (may resolve to the Default Charging Point when unassigned)'
+- from: ChargingSession
+  to: ChargingStation
+  type: belongs_to
+  via: 'ChargerID (OCPP station identifier)'
+- from: ChargingSession
+  to: ChargingPoint
+  type: belongs_to
+  via: ConnectorID
+identifier_notes: 'The two published surfaces do not share an identifier scheme. VDV 463 uses UUIDs
+  namespaced by depot; the Charging Data Push-API uses the OCPP station ID plus a numeric ConnectorID
+  and its own numeric TransactionID. An integrator consuming both must maintain its own mapping — the
+  provider publishes no crosswalk.'
+counts:
+  entities: 9
+  relationships: 10

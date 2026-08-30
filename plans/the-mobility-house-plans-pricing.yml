@@ -1,0 +1,28 @@
+generated: '2026-08-30'
+method: searched
+source: 'Probed https://www.mobilityhouse.com/int_en/pricing (404) and
+  https://www.mobilityhouse.com/int_en/chargepilot/pricing (404) on 2026-08-30, and read
+  https://www.mobilityhouse.com/int_en/chargepilot and
+  https://www.mobilityhouse.com/int_en/chargepilot/open-interfaces, which carry contact and consultation
+  calls-to-action rather than published tiers. The consumer webshop at mobilityhouse.com sells hardware
+  with listed prices; ChargePilot, the VDV 463 interface and the Charging Data Push-API are not priced
+  publicly.'
+name: The Mobility House plans and pricing
+plan_count: 0
+plans: []
+model: 'Enterprise / contact sales. There is no self-service sign-up, no published tier table, no
+  metered API price, and no free tier for any ChargePilot interface. Access to the VDV 463 interface
+  and to the Charging Data Push-API is enabled per site by a Mobility House customer success manager
+  as part of a commercial engagement, and the Modbus interface is deactivated by default until a CSM
+  turns it on.'
+note: 'plan_count is an honest zero, not a gap in this pass. Two named commercial packages appear in
+  marketing copy — "Full Service" and a "Plug & Start" entry package of four 22 kW wallboxes — but
+  neither carries a published price, quota or limit, so neither is recorded as a plan.'
+sign_up: https://www.mobilityhouse.com/int_en/contact
+evidence:
+- url: https://www.mobilityhouse.com/int_en/pricing
+  status: 404
+- url: https://www.mobilityhouse.com/int_en/chargepilot/pricing
+  status: 404
+- url: https://www.mobilityhouse.com/int_en/chargepilot
+  status: 200

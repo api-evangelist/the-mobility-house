@@ -1,0 +1,101 @@
+generated: '2026-08-30'
+method: searched
+source: 'https://vdv-docs.tmh.energy/error-cases/error-cases/ and
+  https://vdv-docs.tmh.energy/mapping/mapping (OCPP -> VDV 463 status and error-code mapping tables),
+  fetched 2026-08-30. Not derived from OpenAPI — no OpenAPI is published.'
+name: The Mobility House error catalog
+format: custom
+rfc9457: false
+note: 'The Mobility House does not use HTTP problem+json. Errors on the VDV 463 interface are message
+  envelopes, not HTTP responses, and fault information on charging points and stations is carried as
+  enumerated codes inside ProvideChargingInformation payloads. Both enumerations below are published
+  verbatim by the provider.'
+envelopes:
+- id: vdv463-error-message
+  applies_to: the-mobility-house-chargepilot-vdv-463
+  description: 'An error message replaces the confirmation message when a request cannot be processed.
+    MessageType position is set to 3.'
+  shape: 'JSON array: [3, Source, PresystemId, TimeStamp, MessageId, MessageName, payload]'
+  payload:
+    from_chargepilot:
+      fields:
+      - name: message
+        type: string
+        description: 'Human-readable explanation. Always present on errors ChargePilot emits.'
+      example: 'Charging requests for ids: 692bc7f3-93b6-47f6-8efd-d5550aa393e5,
+        97048f7b-ed64-4cf4-9b9d-94120c5bdc47 does not exist.'
+    from_upstream_system:
+      fields: []
+      description: 'The interface fixes no error-explanation property for errors the upstream system
+        emits — any value is accepted in the payload position.'
+  remediation: 'Errors are not retried automatically by the interface; the emitting party is expected
+    to correct and resend. No error code enumeration is published for this envelope, only free text.'
+problem_types:
+- id: charging-point-fault
+  name: Charging point fault code
+  field: chargingPointFaultInfo.chargingPointFaultCode
+  carried_in: ProvideChargingInformation.req
+  companion_fields:
+  - faultText
+  - faultTimeStamp
+  description: 'VDV 463 charging point error codes, mapped by ChargePilot from the underlying OCPP
+    charging point error code.'
+  codes:
+  - code: WeakSignal
+    ocpp_source: EVCommunicationError
+  - code: CommunicationFailure
+    ocpp_source: ConnectorLockFailure
+  - code: UsageFailure
+    ocpp_source: 'GroundFailure, HighTemperature, LocalListConflict, OverCurrentFailure,
+      PowerMeterFailure, PowerSwitchFailure, ReaderFailure, ResetFailure, UnderVoltage, OverVoltage'
+  - code: OtherChargingPointFailure
+    ocpp_source: InternalError
+  - code: NoFaultKnown
+    ocpp_source: 'NoError, OtherError, Unknown'
+- id: charging-station-fault
+  name: Charging station error code
+  carried_in: ProvideChargingInformation.req
+  description: 'VDV 463 charging station error codes, mapped by ChargePilot from the underlying OCPP
+    charging station error code.'
+  codes:
+  - code: WeakSignal
+    ocpp_source: EVCommunicationError
+  - code: CommunicationFailure
+    ocpp_source: 'GroundFailure, PowerMeterFailure, PowerSwitchFailure'
+  - code: ElectricalOperationFailure
+    ocpp_source: 'HighTemperature, OverVoltage, UnderVoltage, OverCurrentFailure'
+  - code: ConfigurationFailure
+    ocpp_source: LocalListConflict
+  - code: OtherChargingStationFailure
+    ocpp_source: 'ConnectorLockFailure, InternalError, ReaderFailure, ResetFailure'
+  - code: NoFaultKnown
+    ocpp_source: 'NoError, OtherError, Unknown'
+statuses:
+- id: charging-point-status
+  field: chargingPointStatus
+  description: 'ChargePilot internal charging point states mapped to the VDV 463 status enumeration.'
+  values:
+  - status: Available
+    chargepilot_states: available
+  - status: Occupied
+    chargepilot_states: 'finishing, preparing, paused_ev, paused_lm, charging, suspended_ev,
+      suspended_evse'
+  - status: Reserved
+    chargepilot_states: 'not supported yet by ChargePilot'
+  - status: Unavailable
+    chargepilot_states: 'unavailable, offline'
+  - status: Faulted
+    chargepilot_states: 'error, unknown'
+- id: charging-station-status
+  field: chargingStationStatus
+  values:
+  - status: Available
+    condition: OCPP error code NoError and station Online
+  - status: Faulted
+    condition: any other OCPP error code, station Online
+  - status: Unavailable
+    condition: last reported status older than one minute (Offline)
+counts:
+  problem_types: 2
+  fault_codes: 11
+  status_enums: 2

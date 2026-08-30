@@ -1,0 +1,46 @@
+generated: '2026-08-30'
+method: searched
+source: 'Registry metadata read unauthenticated from pypi.org/pypi/ocpp/json and registry.npmjs.org,
+  cross-checked against the github.com/mobilityhouse organisation. The Mobility House publishes no
+  client SDK for its own ChargePilot interfaces; the one widely used first-party package it ships is a
+  reference implementation of the OCPP protocol its product speaks.'
+name: The Mobility House packages
+note: 'The Mobility House ships no client library for the ChargePilot VDV 463 interface, the Charging
+  Data Push-API or the Modbus interface — those are integrated directly against the published protocol
+  documentation. The packages below are the first-party open-source libraries the company publishes.'
+packages:
+- name: ocpp
+  registry: pypi
+  official: true
+  url: https://pypi.org/project/ocpp/
+  repository: https://github.com/mobilityhouse/ocpp
+  documentation: https://ocpp.readthedocs.io/en/latest/
+  language: Python
+  license: MIT
+  version: 2.1.0
+  published: '2025-07-16'
+  requires_python: '>=3.11,<4.0'
+  description: 'Python implementation of the JSON version of the Open Charge Point Protocol (OCPP),
+    supporting OCPP 1.6, 2.0.1 and 2.1. Maintained by The Mobility House on its own GitHub
+    organisation; the most widely adopted open-source OCPP library in the EV charging ecosystem
+    (1,039 GitHub stars at time of probe, repository last pushed 2026-07-19).'
+  note: 'Protocol library, not a client SDK for a Mobility House API. It implements the same OCPP
+    protocol ChargePilot speaks to charging stations, which makes it the closest thing the company
+    publishes to an integration SDK.'
+- name: '@tmh-bis-salesforce/tmh-bis-salesforce-cli-plugin'
+  registry: npm
+  official: true
+  url: https://www.npmjs.com/package/@tmh-bis-salesforce/tmh-bis-salesforce-cli-plugin
+  repository: null
+  language: JavaScript
+  version: 0.8.3
+  published: '2024-07-09'
+  description: 'Salesforce CLI plugin published under The Mobility House''s tmh-bis-salesforce npm
+    scope, with utilities for running tests and bumping Salesforce API versions.'
+  note: 'Internal business-systems tooling for the company''s own Salesforce estate, not a client for
+    any ChargePilot interface. Last published 2024-07-09; no repository declared in the registry
+    metadata.'
+counts:
+  total: 2
+  official: 2
+  api_client_sdks: 0

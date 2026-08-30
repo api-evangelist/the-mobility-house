@@ -1,0 +1,30 @@
+generated: '2026-08-30'
+method: searched
+source: 'Web search for a Mobility House / ChargePilot MCP server (2026-08-30) returned nothing; no
+  MCP endpoint is named on mobilityhouse.com, tmh-help.freshdesk.com, vdv-docs.tmh.energy or the
+  github.com/mobilityhouse organisation (15 public repos, none MCP-related); no /.well-known/
+  MCP or OAuth discovery document is served on any host (see
+  well-known/the-mobility-house-well-known.yml). No endpoint was guessed or probed speculatively.'
+name: The Mobility House MCP
+status: none-found
+deployment:
+  mode: none
+  endpoint: null
+  install: null
+  package: null
+  auth: unknown
+  verified: searched
+note: 'The Mobility House ships no MCP server, hosted or local. No MCPServer pointer is emitted. A
+  candidate tool list is NOT derived here: the pipeline derives candidates from OpenAPI operations and
+  The Mobility House publishes no OpenAPI. Its two integration surfaces are a bidirectional WebSocket
+  message stream (VDV 463) and an outbound webhook, neither of which maps to request/response tools
+  without inventing an operation set the provider does not publish.'
+searched:
+- what: web search for "The Mobility House / ChargePilot MCP server model context protocol"
+  result: no first-party result
+- what: github.com/mobilityhouse repository list
+  result: '15 public repos, none MCP-related (ocpp, resin-release-tool, AppAuth-iOS-Without-Pkce and
+    12 archived infrastructure repos)'
+- what: /.well-known/oauth-authorization-server and /.well-known/oauth-protected-resource
+  result: '404 on www.mobilityhouse.com and vdv-docs.tmh.energy; SPA shell on chargepilot.tmh.energy
+    and admin-chargepilot.tmh.energy'

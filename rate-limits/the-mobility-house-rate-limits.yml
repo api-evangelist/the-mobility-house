@@ -1,0 +1,41 @@
+generated: '2026-08-30'
+method: searched
+source: 'https://vdv-docs.tmh.energy/prerequisites/prerequisites/,
+  https://vdv-docs.tmh.energy/initial-connection/initial-connection/,
+  https://tmh-help.freshdesk.com/en/support/solutions/articles/203000046009-chargepilot-charging-data-push-api
+  and https://tmh-help.freshdesk.com/en/support/solutions/articles/203000046016-chargepilot-modbus-interface.
+  Fetched 2026-08-30.'
+name: The Mobility House rate limits
+limit_count: 0
+limits: []
+response_headers: []
+exhaustion_status_code: null
+note: 'The Mobility House publishes no rate limits, no quotas, no burst allowance and no rate-limit
+  response headers for any of its interfaces, and there is no documented status code for exhaustion.
+  limit_count is an honest zero. What the provider does publish is cadence, which is the governing
+  runtime constraint on these interfaces — they are push/streaming surfaces, not request-quota
+  surfaces, so an integrator is paced by the provider rather than throttled by it.'
+published_cadences:
+- surface: the-mobility-house-chargepilot-vdv-463
+  direction: ChargePilot -> upstream system
+  message: ProvideChargingInformation.req
+  interval: 15 seconds
+  binding: MUST
+  source: https://vdv-docs.tmh.energy/prerequisites/prerequisites/
+- surface: the-mobility-house-chargepilot-vdv-463
+  direction: upstream system -> ChargePilot
+  message: ProvideChargingRequests.req
+  interval: 'Unbounded; sender-driven. The only stated constraint is ordering — no ProvideChargingRequests
+    may be sent before the first ProvideChargingInformation has been received, and no message of any
+    kind before BootNotification.conf.'
+  source: https://vdv-docs.tmh.energy/initial-connection/initial-connection/
+- surface: the-mobility-house-chargepilot-charging-data-push-api
+  direction: ChargePilot -> customer endpoint
+  interval: 'Hourly by default; adjustable per customer.'
+  source: https://tmh-help.freshdesk.com/en/support/solutions/articles/203000046009-chargepilot-charging-data-push-api
+- surface: chargepilot-modbus-interface
+  direction: energy management system -> TMH Controller
+  interval: 'No polling interval mandated. The controller applies per-device fallback values after a
+    default 30-second EMS offline timeout, configurable — which is effectively a minimum polling
+    cadence for a client that wants its limits to stay in force.'
+  source: https://tmh-help.freshdesk.com/en/support/solutions/articles/203000046016-chargepilot-modbus-interface

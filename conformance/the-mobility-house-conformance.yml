@@ -1,0 +1,103 @@
+generated: '2026-08-30'
+method: searched
+source: 'https://vdv-docs.tmh.energy/ (all sections),
+  https://www.mobilityhouse.com/int_en/chargepilot/open-interfaces,
+  https://tmh-help.freshdesk.com/en/support/solutions/articles/203000040345-chargepilot-integrations-through-standardized-interfaces,
+  https://tmh-help.freshdesk.com/en/support/solutions/articles/203000046016-chargepilot-modbus-interface,
+  https://github.com/mobilityhouse/ocpp. Fetched 2026-08-30.'
+name: The Mobility House standards conformance
+domain_standard:
+  id: vdv-463
+  name: 'VDV 463 — Schnittstelle Lademanagement (Verband Deutscher Verkehrsunternehmen)'
+  sector: 'Public transport / electric bus depot charging'
+  conforms: true
+  grade: verified
+  evidence: 'The Mobility House publishes a dedicated seven-section technical guideline titled
+    "Connect to ChargePilot via VDV 463 — Technical Guideline for a successful API integration" at
+    https://vdv-docs.tmh.energy/, which names the standard, links the normative specification at
+    https://knowhow.vdv.de/documents/463/, implements the standard-defined transport (WebSocket over
+    TLS), the standard-defined message envelope (MessageType/Source/PresystemId/TimeStamp/MessageId/
+    MessageName/payload array), the standard-defined message names (BootNotification,
+    ProvideChargingInformation, ProvideChargingRequests) and the standard-defined Source enumeration
+    (BMS, ITCS, CMS), and publishes an explicit mapping table from ChargePilot internal states to the
+    VDV 463 charging point and charging station status and error-code enumerations.'
+  role: 'CMS (Charging Management System) side of the CMS <-> upstream-system interface.'
+  spec_location: https://vdv-docs.tmh.energy/prerequisites/prerequisites/
+  normative_reference: https://knowhow.vdv.de/documents/463/
+  related: 'VDV 261 is referenced alongside 463 in the provider''s support folder structure but no TMH
+    conformance statement for it was found.'
+standards:
+- id: ocpp
+  name: Open Charge Point Protocol
+  versions: ['1.6', '2.0.1', '2.1']
+  conforms: true
+  evidence: 'ChargePilot integrates charging stations from multiple manufacturers over OCPP, including
+    mixed AC/DC estates (https://www.mobilityhouse.com/int_en/chargepilot/open-interfaces). The
+    Mobility House also authors and maintains the reference open-source Python implementation of the
+    JSON version of OCPP at https://github.com/mobilityhouse/ocpp (PyPI ocpp 2.1.0, 2025-07-16), and
+    publishes an OCPP status/error-code mapping table at https://vdv-docs.tmh.energy/mapping/mapping.'
+  role: 'Central system / CSMS toward charging stations; also upstream library author.'
+- id: modbus-tcp
+  name: Modbus TCP/IP
+  conforms: true
+  evidence: 'The TMH Controller acts as a Modbus TCP/IP server (slave ID 1, big-endian register order)
+    with a published register map — total live values at 0x0001-0x0020, administration registers at
+    0x100A-0x1013, grid-limit holding registers at 0x2000-0x2001 and 0x2008-0x2009, per-charging-point
+    live values from 0x3000 with a 256-decimal offset per connector — documented at
+    https://tmh-help.freshdesk.com/en/support/solutions/articles/203000046016-chargepilot-modbus-interface.'
+  role: server
+- id: ocpi
+  name: Open Charge Point Interface
+  conforms: partial
+  evidence: 'Named by The Mobility House as one of the standardized interfaces ChargePilot speaks
+    ("OCPI makes charging international and interoperable",
+    https://tmh-help.freshdesk.com/en/support/solutions/articles/203000040345-chargepilot-integrations-through-standardized-interfaces).
+    No OCPI version, endpoint, credentials module or conformance statement is published, so this is
+    recorded as a named capability rather than a verified conformance.'
+- id: iso-15118
+  name: 'ISO 15118 — Road vehicles: Vehicle to grid communication interface'
+  conforms: partial
+  evidence: 'Named in the same standardized-interfaces article as making charging processes easier and
+    more efficient. No conformance certificate or version is published by The Mobility House.'
+- id: openadr
+  name: OpenADR
+  conforms: partial
+  evidence: 'Named in the same article as providing "precise load control via OpenADR". No version or
+    conformance statement published.'
+- id: oauth2
+  name: OAuth 2.0
+  conforms: false
+  evidence: 'No OAuth 2.0 surface. VDV 463 uses HTTP Basic over WSS; the Charging Data Push-API uses a
+    static Ocp-Apim-Subscription-Key header. /.well-known/oauth-authorization-server returns 404 or an
+    SPA shell on every host probed (see well-known/the-mobility-house-well-known.yml).'
+- id: oidc
+  name: OpenID Connect
+  conforms: false
+  evidence: '/.well-known/openid-configuration returns 404 or an SPA shell on every host probed.'
+- id: rfc9457
+  name: 'RFC 9457 Problem Details for HTTP APIs'
+  conforms: false
+  evidence: 'Errors are VDV 463 message envelopes, not HTTP problem+json. See
+    errors/the-mobility-house-problem-types.yml.'
+- id: pagination
+  name: Collection pagination
+  conforms: false
+  evidence: 'No paged collection surface is published. ProvideChargingInformation delivers the whole
+    depotInfoList in each 15-second message.'
+- id: idempotency
+  name: Idempotent write semantics
+  conforms: true
+  evidence: 'ProvideChargingRequests is a declarative full-state message: ChargePilot compares the
+    supplied list against the requests it already holds, so resending an identical message produces no
+    change ("Charging request is already known to the ChargePilot. No action is taken.").
+    https://vdv-docs.tmh.energy/provide-charging-requests/provide-charging-requests/'
+compliance_certifications:
+  published: false
+  note: 'No trust center, no SOC 2 / ISO 27001 / ISO 9001 certification page, and no security or
+    compliance overview page was found on any Mobility House host. /.well-known/security.txt is not
+    served. No Compliance pointer is emitted.'
+counts:
+  domain_standards: 1
+  standards_asserted: 10
+  standards_conforming: 4
+  standards_partial: 3

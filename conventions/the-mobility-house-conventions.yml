@@ -1,0 +1,120 @@
+generated: '2026-08-30'
+method: searched
+source: 'https://vdv-docs.tmh.energy/ sections 1-7, plus
+  https://tmh-help.freshdesk.com/en/support/solutions/articles/203000046009-chargepilot-charging-data-push-api
+  and https://tmh-help.freshdesk.com/en/support/solutions/articles/203000046016-chargepilot-modbus-interface.
+  Fetched 2026-08-30. Nothing derived from OpenAPI — none is published.'
+name: The Mobility House cross-cutting API conventions
+auth:
+  style: 'HTTP Basic over WebSocket Secure (VDV 463); static subscription-key header
+    (Ocp-Apim-Subscription-Key) on the outbound Charging Data Push-API; none on the Modbus TCP server,
+    which is network-isolated and off by default.'
+  self_service: false
+  see: authentication/the-mobility-house-authentication.yml
+message_envelope:
+  vdv463:
+    shape: json-array
+    positions:
+    - name: MessageType
+      type: integer enum
+      values: {1: Request, 2: Confirmation, 3: Error}
+    - name: Source
+      type: string enum
+      values: [BMS, ITCS, CMS]
+      note: 'BMS and ITCS identify the upstream system; CMS identifies ChargePilot.'
+    - name: PresystemId
+      type: string
+      note: Unique ID of the pre-system connecting to ChargePilot.
+    - name: TimeStamp
+      type: utc-timestamp
+    - name: MessageId
+      type: uuid
+    - name: MessageName
+      type: string
+    - name: payload
+      type: object
+    note: 'Every request must be answered by a Confirmation (MessageType 2) or an Error
+      (MessageType 3) carrying the same MessageId and MessageName.'
+  push_api:
+    shape: json
+    content_type: application/json
+idempotency:
+  supported: true
+  grade: verified
+  mechanism: declarative-full-state
+  header: null
+  note: 'There is no Idempotency-Key header, because the write surface is not request-scoped. The one
+    write path an integrator has — ProvideChargingRequests — is a full-state declarative message.
+    ChargePilot diffs the whole supplied list against the Charging Requests it already holds, and the
+    provider states the resulting semantics explicitly: a Charging Request already known to ChargePilot
+    with unchanged values produces "No action is taken"; changed values update in place; entries absent
+    from the message are deleted. Resending the same message is therefore a no-op, which is idempotency
+    achieved by message design rather than by a deduplication key.'
+  evidence: https://vdv-docs.tmh.energy/provide-charging-requests/provide-charging-requests/
+  retention: 'n/a — no request-id dedup window exists because none is needed.'
+  scope: 'Per VDV 463 session, per PresystemId.'
+reversibility:
+  grade: documented
+  applies_to: the-mobility-house-chargepilot-vdv-463
+  note: 'A write can be taken back, and the provider documents how — but it publishes no time window,
+    so this grades documented rather than verified. No window is asserted here.'
+  operations:
+  - write: 'Create or update a Charging Request (ProvideChargingRequests.req with chargingInstruction
+      Normal or Changed)'
+    reversal: 'ProvideChargingRequests.req with chargingInstruction Terminate for that request, or
+      simply omitting the request from the next full-state message — ChargePilot deletes Charging
+      Requests that are no longer provided.'
+    reversal_operation_id: 'ProvideChargingRequests (chargingInstruction: Terminate)'
+    window: 'Not stated by the provider. The docs describe no cut-off after which a Charging Request
+      can no longer be terminated, and none is inferred here.'
+    docs: https://vdv-docs.tmh.energy/provide-charging-requests/provide-charging-requests/
+  - write: 'Set a grid limit over the Modbus holding registers (0x2000-0x2001 absolute, 0x2008-0x2009
+      percentage)'
+    reversal: 'Write a new value to the same holding register; the controller also reverts to
+      per-device predefined fallback values when the energy management system goes offline.'
+    window: 'Not a time-bounded reversal. The default EMS offline timeout before fallback applies is
+      30 seconds, configurable.'
+    docs: https://tmh-help.freshdesk.com/en/support/solutions/articles/203000046016-chargepilot-modbus-interface
+  - write: 'Charging Data Push-API delivery'
+    reversal: 'n/a — read-only export of completed sessions, nothing to reverse.'
+dry_run_mode:
+  supported: false
+  note: 'No sandbox, simulator or dry-run mode is published for any interface.'
+pagination:
+  supported: false
+  note: 'No paged collections. ProvideChargingInformation carries the complete depotInfoList in every
+    message; the Push-API delivers a batch per interval.'
+field_expansion:
+  supported: false
+sparse_fields:
+  supported: false
+metadata:
+  supported: false
+request_tracing:
+  mechanism: 'MessageId (UUID) in position 5 of every VDV 463 envelope, echoed on the corresponding
+    Confirmation or Error message.'
+  header: null
+versioning:
+  style: 'Standard-version pinned, not provider-version pinned. The VDV 463 interface is versioned by
+    the VDV standard itself (https://knowhow.vdv.de/documents/463/); OCPP support is versioned by the
+    OCPP release (1.6, 2.0.1, 2.1). No Mobility House API version identifier, URL version segment or
+    version header is published.'
+  in_url: false
+  header: null
+error_envelope:
+  see: errors/the-mobility-house-problem-types.yml
+  shape: 'MessageType 3 array envelope; ChargePilot always supplies a message string. Fault conditions
+    on infrastructure are carried as enumerated codes inside ProvideChargingInformation rather than as
+    errors.'
+rate_limit_signaling:
+  headers: none
+  see: rate-limits/the-mobility-house-rate-limits.yml
+  note: 'No rate limits or rate-limit headers are published. The interfaces are cadence-driven rather
+    than quota-driven: ChargePilot emits ProvideChargingInformation every 15 seconds and the Push-API
+    delivers hourly by default.'
+cross_links:
+  errors: errors/the-mobility-house-problem-types.yml
+  lifecycle: lifecycle/the-mobility-house-lifecycle.yml
+  authentication: authentication/the-mobility-house-authentication.yml
+  rate_limits: rate-limits/the-mobility-house-rate-limits.yml
+  data_model: data-model/the-mobility-house-data-model.yml

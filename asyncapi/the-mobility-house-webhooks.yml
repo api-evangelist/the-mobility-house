@@ -1,0 +1,117 @@
+generated: '2026-08-30'
+method: searched
+source: 'https://tmh-help.freshdesk.com/en/support/solutions/articles/203000046009-chargepilot-charging-data-push-api
+  and https://vdv-docs.tmh.energy/ (sections 2-5), fetched 2026-08-30.'
+name: The Mobility House event and webhook surface
+note: 'The Mobility House publishes NO AsyncAPI document. It does publish two real event surfaces in
+  prose-plus-example form: an outbound HTTPS webhook (the ChargePilot Charging Data Push-API) and a
+  bidirectional WebSocket-Secure message interface (VDV 463). This artifact catalogues them from the
+  published documentation. No AsyncAPI specification has been authored on the provider''s behalf.'
+asyncapi_published: false
+surfaces:
+- id: chargepilot-charging-data-push-api
+  name: ChargePilot Charging Data Push-API
+  kind: webhook
+  direction: outbound
+  protocol: https
+  method: POST
+  endpoint: 'customer-supplied HTTPS URL (ChargePilot POSTs to a receiver the customer operates; no
+    Mobility House host is involved as the destination)'
+  authentication:
+    style: api-key-header
+    header: Ocp-Apim-Subscription-Key
+    note: 'Azure API Management subscription-key header, presented by ChargePilot to the customer
+      endpoint. Key is issued during onboarding.'
+  content_type: application/json
+  cadence: 'Hourly by default, adjustable per customer; a record becomes eligible on charging session
+    completion.'
+  scope: 'All current and future charging sites on the account are included automatically.'
+  events:
+  - name: charging-session-completed
+    description: 'One completed charging session, billing-relevant.'
+    payload_fields:
+    - name: TransactionID
+      type: number
+      description: Session identifier.
+    - name: ChargerID
+      type: string
+      description: OCPP station ID / serial number.
+    - name: ConnectorID
+      type: number
+      description: Charging point identifier within the station.
+    - name: StartAt
+      type: string
+      format: utc-timestamp
+      description: Session start, UTC.
+    - name: EndAt
+      type: string
+      format: utc-timestamp
+      description: Session end, UTC.
+    - name: Id
+      type: string
+      description: RFID tag presented for the session.
+    - name: EnergyDelivered
+      type: number
+      unit: Wh
+      description: Energy delivered, meter_start to meter_stop.
+    - name: InitialSoC
+      type: number|null
+      description: State of charge at session start. DC charging points only; null on AC.
+    - name: EndSoC
+      type: number|null
+      description: State of charge at session end. DC charging points only; null on AC.
+  gaps:
+    retry_policy: 'Not documented.'
+    delivery_guarantee: 'Not documented.'
+    signature_verification: 'Not documented — the only authenticator described is the static
+      Ocp-Apim-Subscription-Key header.'
+    expected_response_codes: 'Not documented.'
+- id: chargepilot-vdv-463
+  name: ChargePilot VDV 463 message interface
+  kind: websocket-messages
+  direction: bidirectional
+  protocol: wss
+  transport_note: 'VDV 463 mandates an encrypted WebSocket connection over TLS. The endpoint is
+    provisioned per customer site by The Mobility House and is not published.'
+  authentication:
+    style: http-basic
+    note: 'HTTP Basic Authentication during the WebSocket handshake, credentials Base64-encoded.
+      Credentials and a recommended TMH certificate are issued when the site is enabled for VDV 463.'
+  envelope:
+    shape: json-array
+    positions:
+    - MessageType (1 Request, 2 Confirmation, 3 Error)
+    - Source (BMS | ITCS | CMS)
+    - PresystemId
+    - TimeStamp (UTC)
+    - MessageId (UUID)
+    - MessageName
+    - Payload object
+  messages:
+  - name: BootNotification.req
+    direction: upstream-system -> ChargePilot
+    required: true
+    description: 'First message after a successful handshake. No further messages may be exchanged
+      until ChargePilot answers BootNotification.conf.'
+  - name: BootNotification.conf
+    direction: ChargePilot -> upstream-system
+    required: true
+    description: Confirmation that the session is open for data exchange.
+  - name: ProvideChargingInformation.req
+    direction: ChargePilot -> upstream-system
+    required: true
+    cadence: every 15 seconds
+    description: 'Carries a depotInfoList: depot setup, chargingStationInfoList with station statuses,
+      chargingPointInfoList with charging point statuses, presentPower, fault information, ongoing
+      charging processes and (when previously supplied) scheduledChargingProcessList entries.'
+  - name: ProvideChargingRequests.req
+    direction: upstream-system -> ChargePilot
+    required: false
+    description: 'Per-vehicle charging schedules. Full-state message: ChargePilot diffs the supplied
+      list against the requests it already holds — new entries are created, changed entries updated,
+      omitted entries deleted. chargingInstruction may be Normal, Changed or Terminate.'
+  - name: <MessageName> error (MessageType 3)
+    direction: both
+    description: 'Sent instead of a confirmation when a request cannot be processed. ChargePilot''s
+      error payload always carries a message property with a human-readable explanation; the upstream
+      system''s error payload shape is not fixed by the interface.'

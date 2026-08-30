@@ -1,0 +1,125 @@
+generated: '2026-08-30'
+method: probed
+source: 'Direct unauthenticated HTTPS GET of each /.well-known/ path on every host associated with
+  The Mobility House, 2026-08-30, browser User-Agent, redirects followed.'
+name: The Mobility House well-known probe
+note: 'No /.well-known/ document is served on any Mobility House host. www.mobilityhouse.com returns a
+  real 404 for every path. chargepilot.tmh.energy and admin-chargepilot.tmh.energy are single-page
+  applications whose catch-all route answers HTTP 200 with the same application HTML shell (3,851 and
+  1,414 bytes respectively) for every /.well-known/* path — these are recorded as status 200 but they
+  are NOT documents and are treated as misses. vdv-docs.tmh.energy is served from GitHub Pages and
+  returns the GitHub Pages 404 page. No WellKnown or SecurityTxt pointer is emitted for this repo.'
+hosts:
+- host: www.mobilityhouse.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+  - path: /.well-known/agent.json
+    status: 404
+    file: null
+- host: chargepilot.tmh.energy
+  note: 'SPA catch-all: every path returns the identical 3,851-byte application shell. Not documents.'
+  documents:
+  - path: /.well-known/security.txt
+    status: 200
+    file: null
+    result: spa-shell
+  - path: /.well-known/openid-configuration
+    status: 200
+    file: null
+    result: spa-shell
+  - path: /.well-known/oauth-authorization-server
+    status: 200
+    file: null
+    result: spa-shell
+  - path: /.well-known/api-catalog
+    status: 200
+    file: null
+    result: spa-shell
+  - path: /.well-known/ai-plugin.json
+    status: 200
+    file: null
+    result: spa-shell
+  - path: /.well-known/agent-card.json
+    status: 200
+    file: null
+    result: spa-shell
+  - path: /.well-known/agent.json
+    status: 200
+    file: null
+    result: spa-shell
+- host: admin-chargepilot.tmh.energy
+  note: 'SPA catch-all: every path returns the identical 1,414-byte application shell. Not documents.'
+  documents:
+  - path: /.well-known/security.txt
+    status: 200
+    file: null
+    result: spa-shell
+  - path: /.well-known/openid-configuration
+    status: 200
+    file: null
+    result: spa-shell
+  - path: /.well-known/oauth-authorization-server
+    status: 200
+    file: null
+    result: spa-shell
+  - path: /.well-known/api-catalog
+    status: 200
+    file: null
+    result: spa-shell
+  - path: /.well-known/ai-plugin.json
+    status: 200
+    file: null
+    result: spa-shell
+  - path: /.well-known/agent-card.json
+    status: 200
+    file: null
+    result: spa-shell
+  - path: /.well-known/agent.json
+    status: 200
+    file: null
+    result: spa-shell
+- host: vdv-docs.tmh.energy
+  note: 'GitHub Pages origin; genuine 404 page returned for every path.'
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+  - path: /.well-known/agent.json
+    status: 404
+    file: null
+summary:
+  documents_served: 0
+  hosts_probed: 4
+  agent_card_found: false

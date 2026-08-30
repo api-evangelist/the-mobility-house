@@ -1,0 +1,62 @@
+generated: '2026-08-30'
+method: searched
+source: 'https://vdv-docs.tmh.energy/initial-connection/initial-connection/ and
+  https://tmh-help.freshdesk.com/en/support/solutions/articles/203000046009-chargepilot-charging-data-push-api
+  and https://tmh-help.freshdesk.com/en/support/solutions/articles/203000046016-chargepilot-modbus-interface,
+  fetched 2026-08-30. Derived nothing from OpenAPI: The Mobility House publishes no OpenAPI or Swagger
+  document, so there are no securitySchemes to read.'
+docs: https://vdv-docs.tmh.energy/initial-connection/initial-connection/
+name: The Mobility House authentication profile
+openapi_security_schemes: 0
+schemes:
+- id: vdv463-http-basic
+  api: the-mobility-house-chargepilot-vdv-463
+  type: http
+  scheme: basic
+  location: 'WebSocket upgrade request (Authorization header, credentials Base64-encoded)'
+  description: 'Customers identify themselves during the VDV 463 WebSocket TLS handshake using HTTP
+    Basic Authentication with a username and password issued by The Mobility House when the site is
+    configured for VDV 463.'
+  credential_issuance: 'Manual. The customer requests a ChargePilot site be enabled for VDV 463; The
+    Mobility House configures the site, generates customer-specific credentials, and delivers them
+    together with a recommended TMH certificate. There is no self-service key issuance.'
+  transport_security: 'TLS mandatory — VDV 463 defines WebSocket Secure as the transport. The Mobility
+    House additionally recommends pinning the certificate it supplies to prevent unauthorized access.'
+  rotation: not documented
+  scopes: none documented
+- id: push-api-subscription-key
+  api: the-mobility-house-chargepilot-charging-data-push-api
+  type: apiKey
+  in: header
+  name: Ocp-Apim-Subscription-Key
+  description: 'ChargePilot presents an Azure API Management subscription key to the customer-operated
+    receiving endpoint when POSTing charging session data. The direction is inverted relative to a
+    normal API key: the provider authenticates itself to the consumer.'
+  credential_issuance: 'Agreed during Push-API onboarding with the customer success manager.'
+  rotation: not documented
+  scopes: none documented
+- id: modbus-tcp-no-auth
+  api: chargepilot-modbus-interface
+  type: none
+  description: 'The ChargePilot / TMH Controller Modbus TCP/IP server exposes no authentication. Access
+    control is network-level only: the interface is deactivated by default, must be enabled by a
+    customer success manager, is reachable on the local site network at a configurable IP with slave
+    ID 1, and can be restricted to read-only (input registers) or read/write (input plus holding
+    registers).'
+  rotation: n/a
+  scopes: n/a
+- id: ocpp-station-auth
+  api: chargepilot-ocpp
+  type: http
+  scheme: basic
+  description: 'Charging stations connect into ChargePilot over OCPP. OCPP 1.6-J and 2.0.1 station
+    authentication is defined by the OCPP standard rather than by a Mobility House-specific scheme;
+    The Mobility House does not publish its per-station credential policy.'
+  note: 'Recorded for completeness of the auth surface; not independently verified against a Mobility
+    House document.'
+oauth2: false
+openid_connect: false
+mutual_tls: 'partial — a TMH-issued certificate is recommended (not documented as required) on the
+  VDV 463 connection.'
+self_service_signup: false
+signup_path: 'Sales / customer success. https://www.mobilityhouse.com/int_en/contact'

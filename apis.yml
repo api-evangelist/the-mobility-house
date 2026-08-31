@@ -89,6 +89,11 @@ apis:
     CUSTOMER operates, so the base URL belongs to the consumer, not to The Mobility House. The provider
     documents the destination only as a customer-supplied HTTPS URL.'
   tags:
+  - Webhook
+  - Charging Sessions
+  - Billing
+  - Data Export
+  tags_raw:
   - Webhooks
   - Charging Sessions
   - Billing

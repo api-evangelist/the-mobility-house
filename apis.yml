@@ -13,6 +13,21 @@ description: 'The Mobility House (TMH) is a Munich-headquartered electric-mobili
 url: https://raw.githubusercontent.com/api-evangelist/the-mobility-house/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
+accessModel:
+  pricing: unknown
+  onboarding: approval
+  trial: false
+  try_now: false
+  public: false
+  label: Requires approval
+  confidence: medium
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  generated: '2026-09-03'
+  method: derived
 specificationVersion: '0.20'
 image: https://cdn-website.mobilityhouse.com/Open-Graph-Image_575018da3f191243c105ceb22aba34e4.png
 created: '2026-08-30'

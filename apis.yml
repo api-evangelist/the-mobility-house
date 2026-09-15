@@ -2,14 +2,13 @@ aid: the-mobility-house
 name: The Mobility House
 description: 'The Mobility House (TMH) is a Munich-headquartered electric-mobility and energy technology
   company, founded in 2009, with offices in Zurich, Montreal, Paris, Singapore and Belmont (USA). Its
-  ChargePilot smart charging and energy management system pairs an on-site controller with a cloud
-  dashboard to run dynamic load management across mixed-vendor AC and DC charging infrastructure, and
-  its Vehicle-to-Grid (V2G) platform markets electric-vehicle battery capacity into energy and
-  grid-balancing markets. ChargePilot integrates with third-party systems over open, standards-based
-  interfaces rather than a public REST developer program: OCPP to charging stations, a VDV 463 WebSocket
-  interface to depot and fleet management systems, a Modbus TCP/IP server for building and site energy
-  management systems, and an outbound Charging Data Push-API that delivers completed charging sessions
-  as JSON to a customer endpoint.'
+  ChargePilot smart charging and energy management system pairs an on-site controller with a cloud dashboard
+  to run dynamic load management across mixed-vendor AC and DC charging infrastructure, and its Vehicle-to-Grid
+  (V2G) platform markets electric-vehicle battery capacity into energy and grid-balancing markets. ChargePilot
+  integrates with third-party systems over open, standards-based interfaces rather than a public REST
+  developer program: OCPP to charging stations, a VDV 463 WebSocket interface to depot and fleet management
+  systems, a Modbus TCP/IP server for building and site energy management systems, and an outbound Charging
+  Data Push-API that delivers completed charging sessions as JSON to a customer endpoint.'
 url: https://raw.githubusercontent.com/api-evangelist/the-mobility-house/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
@@ -52,24 +51,24 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 apis:
-- aid: the-mobility-house-chargepilot-vdv-463
+- aid: the-mobility-house:the-mobility-house-chargepilot-vdv-463
   name: ChargePilot VDV 463 Interface
-  description: 'Two-way WebSocket-Secure interface between ChargePilot (acting as the Charging Management
+  description: Two-way WebSocket-Secure interface between ChargePilot (acting as the Charging Management
     System, CMS) and an upstream Depot Management, Fleet Management or ITCS system, implemented against
-    the VDV 463 standard published by the Verband Deutscher Verkehrsunternehmen. ChargePilot pushes
-    ProvideChargingInformation.req messages carrying a DepotInfoList (depot setup, charging station and
-    charging point statuses, live charging processes, fault information) every 15 seconds; the upstream
-    system may optionally push ProvideChargingRequests.req messages carrying per-vehicle charging
-    schedules. The session opens with a WebSocket TLS handshake authenticated with HTTP Basic
-    credentials issued by The Mobility House, followed by a BootNotification.req/.conf exchange.'
+    the VDV 463 standard published by the Verband Deutscher Verkehrsunternehmen. ChargePilot pushes ProvideChargingInformation.req
+    messages carrying a DepotInfoList (depot setup, charging station and charging point statuses, live
+    charging processes, fault information) every 15 seconds; the upstream system may optionally push ProvideChargingRequests.req
+    messages carrying per-vehicle charging schedules. The session opens with a WebSocket TLS handshake
+    authenticated with HTTP Basic credentials issued by The Mobility House, followed by a BootNotification.req/.conf
+    exchange.
   humanURL: https://vdv-docs.tmh.energy/
   baseURL: ''
-  x-baseurl-note: 'Deliberately empty, not a gap in the pass. The VDV 463 WebSocket-Secure endpoint is
-    provisioned per customer site by The Mobility House at the time the site is enabled, and is
-    delivered privately with the credentials; no base URL is stated anywhere in the public technical
-    guideline. api.tmh.energy resolves and is a Mobility House host, but it answers HTTP 503 from nginx
-    on every path probed (/, /openapi.json, /docs, /v1/openapi.json, /swagger.json, /api-docs, /redoc,
-    2026-08-30) and is named in no document, so it is not asserted as the base.'
+  x-baseurl-note: Deliberately empty, not a gap in the pass. The VDV 463 WebSocket-Secure endpoint is
+    provisioned per customer site by The Mobility House at the time the site is enabled, and is delivered
+    privately with the credentials; no base URL is stated anywhere in the public technical guideline.
+    api.tmh.energy resolves and is a Mobility House host, but it answers HTTP 503 from nginx on every
+    path probed (/, /openapi.json, /docs, /v1/openapi.json, /swagger.json, /api-docs, /redoc, 2026-08-30)
+    and is named in no document, so it is not asserted as the base.
   tags:
   - VDV 463
   - WebSocket
@@ -89,20 +88,19 @@ apis:
     url: data-model/the-mobility-house-data-model.yml
   - type: Conformance
     url: conformance/the-mobility-house-conformance.yml
-- aid: the-mobility-house-chargepilot-charging-data-push-api
+- aid: the-mobility-house:the-mobility-house-chargepilot-charging-data-push-api
   name: ChargePilot Charging Data Push-API
-  description: 'Outbound cloud-to-cloud push of billing-relevant charging session records. On completion
+  description: Outbound cloud-to-cloud push of billing-relevant charging session records. On completion
     of a charging session ChargePilot POSTs a JSON payload over HTTPS to a customer-supplied endpoint,
     batched by default hourly, authenticating itself to the receiver with an Ocp-Apim-Subscription-Key
-    header. Each record carries TransactionID, ChargerID (the OCPP station identifier), ConnectorID,
-    StartAt and EndAt UTC timestamps, the RFID Id presented, EnergyDelivered in Wh, and InitialSoC /
-    EndSoC where the charging point is DC. All current and future charging sites on the account are
-    included automatically.'
+    header. Each record carries TransactionID, ChargerID (the OCPP station identifier), ConnectorID, StartAt
+    and EndAt UTC timestamps, the RFID Id presented, EnergyDelivered in Wh, and InitialSoC / EndSoC where
+    the charging point is DC. All current and future charging sites on the account are included automatically.
   humanURL: https://tmh-help.freshdesk.com/en/support/solutions/articles/203000046009-chargepilot-charging-data-push-api
   baseURL: ''
-  x-baseurl-note: 'Deliberately empty. This is an outbound webhook: ChargePilot POSTs to a host the
-    CUSTOMER operates, so the base URL belongs to the consumer, not to The Mobility House. The provider
-    documents the destination only as a customer-supplied HTTPS URL.'
+  x-baseurl-note: 'Deliberately empty. This is an outbound webhook: ChargePilot POSTs to a host the CUSTOMER
+    operates, so the base URL belongs to the consumer, not to The Mobility House. The provider documents
+    the destination only as a customer-supplied HTTPS URL.'
   tags:
   - Webhook
   - Charging Sessions
@@ -183,11 +181,11 @@ x-enrichment:
 x-coverage:
   state: covered
   reason: null
-  detail: 'ChargePilot ships a public, machine-reachable, standards-based integration surface — a VDV
-    463 WebSocket interface with a seven-section technical guideline at vdv-docs.tmh.energy, a
-    documented outbound Charging Data Push-API, and a published Modbus TCP register map — plus a served
-    llms.txt and a first-party OCPP library on PyPI. What it does not publish is any OpenAPI, AsyncAPI,
-    MCP server or agent card.'
+  detail: ChargePilot ships a public, machine-reachable, standards-based integration surface — a VDV 463
+    WebSocket interface with a seven-section technical guideline at vdv-docs.tmh.energy, a documented
+    outbound Charging Data Push-API, and a published Modbus TCP register map — plus a served llms.txt
+    and a first-party OCPP library on PyPI. What it does not publish is any OpenAPI, AsyncAPI, MCP server
+    or agent card.
   evidence:
   - url: https://vdv-docs.tmh.energy/
     status: 200

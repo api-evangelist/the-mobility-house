@@ -1,0 +1,77 @@
+edges:
+- partner_name: Open Charge Alliance (OCPP certification)
+  partner: null
+  partner_match: register-name
+  type: register
+  channel: standard-directory
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://openchargealliance.org/certified-companies/
+  category: OCPP certified charging products
+  contract_reference:
+    register: Open Charge Alliance certified products (openchargealliance.org/certified-companies/)
+    standard: OCPP (Open Charge Point Protocol)
+    spec_file: null
+    role: ocpp-certified-vendor
+    registered_name: The Mobility House
+    register_id: OCA.0201.0111.CSMS
+    register_country: USA
+    matched_domain: null
+    matched_by: register-name
+    certified_products:
+    - product: OCPP certified Charging Station Management System
+      product_type: Charging Station Management System
+      ocpp_versions:
+      - OCPP 2.0.1
+      lapsed: false
+    certificates_active: 1
+    signal_note: certified_products = one entry per OCPP product type, never per certificate, model or version;
+      lapsed only when every certificate of the product type is on the OCA withdrawn list (the register does not
+      lapse a certificate when its OCPP version is superseded). Certificate counts are context, never counted
+    detected_by: sweep-ev-charging.py
+    detected: '2026-10-20'
+    register_name_note: register-name 'mobilityhouse' = the-mobility-house; no wikidata P856
+    identity_source: register-name
+    identity_note: register gave only the name; exact normalised match to the repo's apis.yml name, one repo, Wikidata
+      P856 not contradicting (Kin 2026-10-20 decision 2)
+  detected_by: sweep-ev-charging.py
+  first_seen: '2026-10-20'
+- partner_name: CharIN e.V. (Charging Interface Initiative)
+  partner: null
+  partner_match: register
+  type: register
+  channel: standard-directory
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://www.charin.global/community/the-mobility-house-gmbh
+  category: charging-interface standards association membership
+  contract_reference:
+    register: CharIN e.V. members (charin.global/community, membership:core + membership:regular)
+    standard: CCS / MCS / ISO 15118 (Plug & Charge)
+    spec_file: null
+    role: charin-member
+    registered_name: The Mobility House GmbH
+    register_id: https://www.charin.global/community/the-mobility-house-gmbh
+    partner_tier: regular
+    member_since: null
+    matched_domain: mobilityhouse.com
+    matched_by: domain
+    signal_note: 'participation only: association membership; tier is context, never counted'
+    detected_by: sweep-ev-charging.py
+    detected: '2026-10-20'
+  detected_by: sweep-ev-charging.py
+  first_seen: '2026-10-20'
+generated: '2026-10-20'
+method: searched
+source:
+- https://openchargealliance.org/certified-companies/
+- https://openchargealliance.org/withdrawn/
+- https://evroaming.org/members/
+- https://www.charin.global/community/membership:core
+- https://www.charin.global/community/membership:regular
+checked:
+- https://evroaming.org/members/
+- https://openchargealliance.org/certified-companies/
+- https://openchargealliance.org/withdrawn/
+- https://www.charin.global/community/membership:core
+- https://www.charin.global/community/membership:regular
